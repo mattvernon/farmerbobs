@@ -1,0 +1,1507 @@
+.wrapper {
+	width: 95%;
+}
+header {
+	height: 101px;
+	margin-bottom: 46px;
+	border-bottom-width: 2px;
+}
+#logo {
+	width: 124px;
+	height: 124px;
+	left: 35px;
+	top: 26px;
+}
+#logo a {
+	height: 124px;
+}
+#iconMenu {
+	display: none;
+}
+nav {
+	display: block;
+	background: none;
+	left:inherit;
+	right: 0;
+	position: absolute;
+}
+nav ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 698px;
+}
+nav li {
+	float: left;
+	width: auto;
+	margin-left: 30px;
+}
+nav a:link, 
+nav a:visited, 
+nav a:hover, 
+nav a:active {
+	color: #4f7a81;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 43px 0 36px 0;
+    line-height: 1.2;
+    border-bottom: solid 4px rgba(93,204,105,0);
+    -webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+nav .on a {
+	border-bottom: solid 4px rgba(93,204,105,100);
+	color: #012930;
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+nav a:hover {
+	border-bottom: solid 4px #5dcc69;
+}
+#navHome {
+	display: none;
+}
+#navGetStarted {
+	position: absolute;
+	right: 35px;
+	top: 22px;
+}
+#navLogin {
+	position: absolute;
+	right: 233px;
+	top: 22px;
+	width: 130px;
+}
+#navLogin a {
+	border: solid 2px #5dcc69;
+	height: 54px;
+	padding: 0;
+	line-height: 54px;
+	color: #5dcc69;
+	font-size: 20px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+#navGetStarted a {
+	width: 190px;
+	height: 58px;
+	padding: 0;
+	background: #5dcc69;
+	border: none;
+	line-height: 58px;
+	color: #fff;
+	font-size: 20px;
+}
+.button {
+	cursor: pointer;
+	-webkit-transition: background-color .15s linear;
+	transition: background-color  .15s linear;
+}
+.button:hover {
+	background: #319c3d;
+	color: #fff;
+	-webkit-transition: background-color .15s linear;
+	transition: background-color  .15s linear;
+}
+
+
+
+
+/***** Get Started *****/
+#getStarted {
+	height: 509px;
+}
+#getStarted h1 {
+	font-size: 42px;
+	line-height: 1;
+}
+#getStartedImg {
+	text-align: right;
+}
+
+
+
+
+/***** Comparison *****/
+#comparison h2 {
+	font-size: 35px;
+}
+
+
+
+
+/***** Nutrition *****/
+#nutrition h2 {
+	font-size: 42px;
+	max-width: 640px;
+	margin-bottom: 50px;
+}
+#nutrition img {
+	max-width: 482px;
+}
+#nutrition li:nth-child(1), #nutrition li:nth-child(4) {
+	top: 192px;
+}
+#nutrition li:nth-child(2), #nutrition li:nth-child(5) {
+	top: 331px;
+}
+#nutrition li:nth-child(3), #nutrition li:nth-child(6) {
+	top: 468px;
+}
+#nutrition li i {
+	width: 80px;
+	height: 80px;
+}
+#nutrition .nutTeeth {background-position: 0 -80px;}
+#nutrition .nutSkin {background-position: 0 0;}
+#nutrition .nutDigestion {background-position: 0 -322px;}
+#nutrition .nutImmune {background-position: 0 -160px;}
+#nutrition .nutMass {background-position: 0 -241px;}
+#nutrition .nutEnergy {background-position: 0 -402px;}
+
+#nutrition li strong {
+	width: 68%;
+	line-height: 78px;
+	padding: 0;
+	float: right;
+}
+#nutrition li:nth-child(2) strong, 
+#nutrition li:nth-child(3) strong, 
+#nutrition li:nth-child(5) strong {
+	line-height: 78px;
+}
+#nutrition li:nth-child(6) strong {
+	line-height: 1.2;
+	padding-top: 22px;
+}
+
+
+
+
+/***** Testimonials ******/
+#testimonials q {
+	font-size: 36px;
+}
+#testimonials cite {
+	font-size: 20px;
+}
+
+
+
+
+/***** Three Point *****/
+#threePoint {
+    padding: 60px 0 22px 0;
+}
+#threePoint h2 {
+	font-size: 42px;
+	max-width: 570px;
+}
+#threePoint strong {
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: -0.4px;
+	width: 66%;
+}
+#threePoint i {
+	background-position: 0 -137px;
+    height: 124px;
+    width: 115px;
+}
+#threePoint .pointDelivered {
+    height: 143px;
+	width: 110px;
+    background-position: 0 -266px;
+}
+#threePoint .pointCancel {
+    background-position: -6px -2152px;
+    background-size: 192px auto;
+    width: 192px;
+    height: 114px;
+}
+
+
+
+/***** Join *****/
+#join {
+	padding: 54px 0 64px 0;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+#join h2 {
+	font-size: 42px;
+}
+#join li {
+	-moz-border-radius:7px;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	overflow: hidden;
+	border: solid 3px #073c46;
+}
+#join li:nth-child(1),
+#join li:nth-child(2) {
+	width: 35.2%;
+	background: #fff;
+	padding: 15px 0 0 0;
+	height: 75px;
+}
+#join li.on {
+	border: solid 3px #4f7a81;
+}
+#join li:nth-child(3) {
+	width: 25.7%;
+	height: 90px;
+}
+#join input {
+	max-width: 100%;
+}
+#join input[type=email],
+#join input[type=tel] {
+	width: 100%;
+}
+#join input[type=submit] {
+	height: 90px;
+}
+
+
+
+
+/***** Why Farmer Bobs *****/
+#whyFarmerBobs {
+	margin-bottom :0;
+}
+#whyFarmerBobs h1 {
+	font-size: 42px;
+	padding-top: 90px;
+	margin-bottom: 90px;
+}
+#whyFarmerBobs h2,
+#neverRunOut h2 {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+#whyFarmerBobs p,
+#neverRunOut p {
+	font-size: 18px;
+	line-height: 1.78;
+}
+#nutrition.showDescriptions strong,
+#nutrition.showDescriptions li:nth-child(1n) strong {
+	line-height: 1.4;
+}
+#nutrition li:nth-child(4) em, 
+#nutrition li:nth-child(5) em, 
+#nutrition li:nth-child(6) em {
+	text-align: left;
+	margin-left: 92px;
+}
+#nutrition.showDescriptions em {
+	display: block;
+    text-align: right;
+    width: 71%;
+}
+
+
+
+
+/***** Our Food *****/
+.ourfoodBg {
+	background: url(../images/placeholder-ourfood-large.jpg) no-repeat 0 160px;
+	background-size: 100% auto;
+}
+#naturalFood {
+	background:none;
+}
+#naturalFood .wrapper {
+	overflow: visible;
+}
+#naturalFood h1 {
+	font-size: 42px;
+}
+#naturalFood p {
+	font-size: 18px;
+}
+#naturalFood ul {
+	overflow: hidden;
+}
+#naturalFood li i {
+	height: 90px;
+    width: 84px;
+}
+#naturalFood li i.foodIngredients {
+    background-position: 0 -100px;
+}
+#naturalFood li i.foodSuitable {
+    background-position: 2px -313px;
+    height: 72px;
+}
+#benefits img {
+	margin-left: -214px;
+}
+#benefitList li em {
+	font-size: 18px;
+	line-height: 1.78;
+	letter-spacing: -0.4px;
+}
+#benefitSubList {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.78;
+	letter-spacing: -0.4px;
+}
+#suppliments {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+#suppliments h2 {
+	font-size: 42px;
+}
+#suppliments p {
+	font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: -0.4px;
+}
+
+
+
+/***** How it works *****/
+#howIntro {
+	padding: 65px 0;
+	max-width: 1580px;
+	margin: 0 auto;
+}
+#howIntro h1,
+#howIntro p {
+	margin-left: 48%;
+}
+#howSteps {
+	margin-bottom: 0;
+	background: url(../images/wood-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0 90px 0;
+}
+.stepArrow {
+    background-position: 0 -755px;
+    background-size: 70px auto;
+}
+#howFriend {
+	padding: 100px 0 70px 0;
+	background-size: 382px auto;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+#howFriend h2,
+#howFriend p {
+	width: 45%;
+}
+#howFriend p {
+	font-size: 18px;
+	line-height: 1.78;
+}
+
+
+
+
+/***** FAQs *****/
+.faqsBg {
+	background: url(../images/wood-bg.jpg) repeat-y 0 0;
+	background-size: 100% auto;
+}
+.faqsBg header,
+.faqsBg #faqsIntro {
+	background: #fff;
+}
+#faqsIntro {
+	margin-top: -46px;
+	padding-top: 46px;
+}
+#faqs {
+	background: none;
+}
+#emailForm {
+	max-width: 1180px;
+	margin: 0 auto 55px auto;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	padding: 0;
+}
+#emailForm .wrapper {
+	width: 100%;
+	padding: 90px;
+}
+#emailForm h2 {
+	font-size: 42px;
+}
+#emailForm input[type=text], 
+#emailForm input[type=email], 
+#emailForm input[type=tel] {
+	height: 72px;
+	padding: 0 30px;
+	background-position: 18px -55px;
+}
+
+
+
+
+
+/***** Not Available *****/
+#notAvailable {
+	background: #1a1823 url(../images/not-available-desktop.jpg) no-repeat center bottom;
+	background-size: 100% auto;
+	min-height: 900px;
+	padding: 100px 0 0 0;
+	margin: -47px 0 0 0;
+}
+#notAvailable .wrapper {
+	min-width: 632px;
+}
+#notAvailable input[type=email] {
+	width: 336px;
+	float: left;
+	margin: 0 11px 0 0;
+	height: 90px;
+	background-position: 18px -46px;
+}
+#notAvailable input[type=submit] {
+	width: 285px;
+	float: left;
+	height: 90px;
+}
+
+
+
+
+
+
+/***** Footer *****/
+footer {
+	padding: 64px 0;
+}
+footer .wrapper {
+	position: relative;
+}
+#footerLogo {
+	float: left;
+	width: 138px;
+    height: 68px;
+    padding: 15px 0 0 0;
+    margin: 0 0 50px 0;
+    background: none;
+    text-indent: 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 0.83;
+	letter-spacing: -0.6px;
+	color: #012930;
+	text-transform: uppercase;
+	border-right: 2px solid #4f7a81;
+}
+#footerSocial {
+	right: inherit;
+	top: 18px;
+    left: 155px;
+}
+#footerSocial ul {
+	float: left;	
+}
+#footerSocial li {
+	margin-left: 20px;
+}
+#footerSubscribe {
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 3px;
+	width: 706px;
+}
+#footerSubscribe ol {
+	overflow: hidden;
+	width: 479px;
+}
+#footerSubscribe li {
+	float: left;
+	width: auto;
+	margin-right: 10px
+}
+#footerSubscribe li:nth-child(2) {
+	margin: 0;
+}
+#footerSubscribe p {
+	float: left;
+	width: 30%;
+	text-align: right;
+	font-size: 14px;
+	margin: 0;
+    padding: 10px 0 0 0;
+}
+#footerSubscribe input[type=submit] {
+	width: 169px;
+}
+#footerNav {
+	clear: both;
+}
+#footerNav ul {
+	text-align: left;
+}
+#footerNav li {
+	padding: 0 20px 0 0;
+}
+#footerNav a {
+	font-size: 18px;
+}
+
+
+
+/***** Modals *****/
+.modalContent {
+	background: #fff;
+	left: 50%;
+	top: 50%;
+	color: #4f7a81;
+}
+.modalClose {
+	display: none;
+}
+.modalContent h2,
+.modalContent h3 {
+	color: #012930;
+}
+.modalContent h2 {
+	font-size: 36px;
+	margin-bottom: 48px;
+}
+.modalContent input[type=tel],
+.modalContent input[type=password],
+.modalContent input[type=email],
+.modalContent input[type=text] {
+	background-color: #f9f9f9;
+	border: solid 1px #ececec;
+	height: 73px;
+}
+.modalContent input[type=text]:focus,
+.modalContent input[type=email]:focus,
+.modalContent input[type=tel]:focus,
+.modalContent input[type=password]:focus {
+	border: solid 3px #ececec;
+}
+.modalContent input[type=email] {
+	background-position: 18px -55px;
+}
+.modalContent input[type=email]:focus {
+	background-position: 16px -57px;
+}
+.modalContent input[type=submit] {
+	width: auto;
+	padding: 0 65px;
+}
+#modalLogin {
+	width: 470px;
+	height: 600px;
+	margin-left: -235px;
+	margin-top: -300px;
+	padding: 0;
+}
+#modalLogin .wrapper {
+	width: 100%;
+	padding: 70px;
+	max-width: 100%;
+}
+#forgotPassword {
+	text-align: center;
+	display: block;
+	color: #4f7a81;
+	
+}
+
+
+
+
+/***** Step Markers *****/
+#stepMarkers {
+	right: 50%;
+	top: 36px;
+	margin-right: -300px;
+	width: 580px;
+}
+#stepBar {
+	top: 7px;
+	height: 8px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.stepStep {
+	height: 22px;
+}
+.stepStep2 {
+	left:186px
+}
+.stepStep3 {
+	left:372px;
+}
+.stepStep4 {
+	left:inherit;
+	right:0;
+}
+.stepStep em {
+	display: block;
+	font-size: 10px;
+	position: absolute;
+    left: -12px;
+    top: 28px;
+}
+.stepStep2 em {
+	left: -10px;
+}
+.stepStep3 em {
+	left: -18px;
+}
+.stepStep4 em {
+	left: inherit;
+	right: -18px;
+}
+.stepMarker {
+	width: 22px;
+	height: 22px;
+	-moz-border-radius:11px;
+	border-radius:11px;
+	-webkit-border-radius:11px;
+}
+.stepMarkerOn {
+	width: 14px;
+	height: 14px;
+	top: 4px;
+	left: 4px;
+	-moz-border-radius:7px;
+	border-radius:4px;
+	-webkit-border-radius:7px;
+}
+.stepLineOn {
+    left: 5px;
+    top: 9px;
+    height: 4px;
+    width: 102px;
+}
+.stepStep2 .stepLineOn {
+    left: -102px;
+    width: 207px;
+}
+.stepStep3 .stepLineOn {
+    left: -294px;
+    width: 397px;
+}
+.stepStep4 .stepLineOn {
+    left: -425px;
+    width: 562px;
+}
+
+
+
+
+/***** Steps *****/
+#stepsContent {
+	margin: -47px 0 0 0;
+	padding: 47px 0 0 0;	
+}
+#stepFormWrapper legend {
+	padding: 54px 0 30px 0;
+}
+#stepFormWrapper fieldset {
+	font-size: 56px;
+	padding-bottom: 52px;
+}
+#stepFormWrapper input, #stepFormWrapper select {
+	font-size: 56px;
+}
+#stepFormWrapper .radioButtons label {
+	padding: 10px 0;
+	font-size: 18px;
+	cursor: pointer;
+}
+#stepFormWrapper .radioButtons label:hover {
+	background-color: #f7f7f7;
+}
+#stepFormWrapper .radioButtons label.on:hover {
+	background-color: #5dcc69;
+}
+#stepFormWrapper .radioSlider label strong {
+	font-size: 30px;
+	margin-bottom: 19px;
+}
+#stepButton input {
+	font-size: 24px;
+}
+#stepsFooter {
+	padding-top: 52px;
+}
+#stepsFooter .wrapper { 
+	width: 100%;
+	padding-top: 52px;
+}
+#stepsFooter #footerNav ul {
+	text-align: center
+}
+
+
+
+
+/***** Step 1 *****/
+#step1Intro {
+	padding-top: 40px;
+	margin-bottom: 70px;
+}
+#step1Intro p {
+	line-height: 1.78;
+}
+.petAllergies {
+	margin: 0 -5%;
+}
+.petAllergy {
+    width: 120px;
+    height: 104px;
+    margin-bottom: 13px;
+}
+.petAllergyBeef {background-position: 0 -617px;}
+.petAllergyChicken {background-position: 0 -842px;}
+.petAllergyFish {background-position: 0 -105px;}
+.petAllergyLamb {background-position: 0 -359px;}
+.petAllergyTurkey {background-position: 0 28px;}
+.petAllergyGrain {background-position: 0 -230px;}
+.petAllergyEggs {background-position: 0 -731px;}
+.petAllergyDairy {background-position: 0 -488px;}
+
+.cantEat {
+    background-size: 122px auto;
+}
+
+
+
+
+/***** Step 2 *****/
+#step2Content {
+	position: relative;
+	padding-top: 40px;
+}
+#step2Image {
+	width: 500px;
+	height: 648px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+#step2Image img {
+	max-width: 100%;
+}
+#stepFormWrapper {
+    margin: 0 auto 0 15%;
+    width: 76%;
+}
+#step2Text h1 {
+	font-size: 24px;
+	margin-bottom: 4px;
+}
+#step2Text h2 {
+	font-size: 18px;
+}
+.tickList li {
+	font-size: 18px;
+	font-weight: 400;
+}
+.tickList li i {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	vertical-align: sub;
+}
+fieldset#step2Text {
+	margin-left: 355px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+fieldset#step2recipes {
+	margin-left: 355px;
+	text-align: left;
+	padding: 0;
+}
+#step2recipes {
+	position: relative;
+}
+#step2recipes h2 {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+#step2recipes p {
+	text-align: left;
+	width: 100%;
+	font-size: 11px;
+}
+#recipeSelect label {
+	width: 80px;
+}
+#recipeSelect .petAllergyLabel {
+	font-size: 10px;
+}
+#recipeDescriptions {
+	margin: 0 0 0 10px;
+}
+#recipeDescriptions p {
+	font-size: 16px;
+	font-weight: 400;
+}
+#recipeDescriptions div {
+	 border-left: 2px solid #ececec;
+    padding-left: 20px;
+ }
+#stepsFooter .wrapper {
+	max-width: 1180px;
+}
+ 
+ 
+ 
+ 
+/***** Step 3 *****/
+#step3Text {
+	background: #fff url(../images/placeholder-suppliment-white.jpg) no-repeat left center;
+	background-size: 46% auto;
+	border: 1px solid #dedede;
+	padding: 80px 40px 86px 47%;
+	position: relative;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+}
+#step3Text h1 {
+	font-size: 42px;
+}
+#step3Text .tickList {
+	width: 300px;
+	margin-bottom: 30px;
+}
+.recommendedSticker {
+    background-position: left top;
+    margin-left: 304px;
+    width: 150px;
+    height: 130px;
+    background-size: 128px;
+}
+
+
+
+
+/***** Checkout *****/
+#checkoutNav {
+	display: none;
+}
+#step4Checkout {
+	overflow: hidden;
+	max-width: 1180px;
+	padding-top: 40px;
+}
+#step4Account,
+#step4Address,
+#step4Payment {
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+	padding: 50px;
+	border-bottom: solid 1px #d4d4d4;
+}
+#step4Column {
+	float: left;
+	width: 66%;
+	background: #f5f5f5;
+	border: solid 1px #d4d4d4;
+	border-bottom: none;
+}
+#step4Review {
+	float: right;
+	width: 32%;
+	margin: 0;
+	padding: 0;
+	border: solid 1px #d4d4d4;
+}
+.step4CheckoutPanel h1 {
+	font-size: 36px;
+}
+.step4CheckoutPanel p {
+	font-size: 18px;
+	line-height: 1.56;
+}
+.step4CheckoutPanel li {
+	margin-bottom: 30px;
+}
+.step4CheckoutPanel label {
+	font-size: 12px;
+}
+#step4Account #stepButton,
+#step4Address #stepButton,
+#step4Review #stepButton {
+	display: none;
+}
+#step4Account ol {
+	overflow: hidden;
+}
+#userAccountPass1 {
+	float: left;
+	width: 48%;
+	margin-bottom: 0;
+}
+#userAccountPass2 {
+	float: right;
+	width: 48%;
+	margin-bottom: 0;
+}
+.addressSuburb {
+	float: left;
+	width: 48%;
+}
+.addressPostcode {
+	float: right;
+	width: 48%;
+}
+#step4Payment {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+#step4Payment #stepButton {
+	margin: 0 -51px;
+	height: 118px;
+}
+#step4Payment #stepButton .button {
+	height: 118px;
+	border: solid 1px #389b43;
+}
+#creditCard {
+	margin-bottom: 64px;
+	padding: 45px;
+	min-height: 310px;
+}
+/*#creditCard ol {
+	overflow: hidden;
+}*/
+#creditCardExpiry {
+	float: left;
+	width: 50%;
+}
+#creditCardCVC {
+	float: right;
+	width: auto;
+}
+#creditCardIcons {
+	width: 168px;
+}
+#step4Review {
+	padding: 40px 40px 0 40px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.orderItem {
+	margin-bottom: 40px;
+}
+.orderItemImg {
+	float: none;
+	width: 100%;
+	max-width: 175px;
+	margin: 0 auto 40px auto;
+}
+#discountCode {
+	margin: 0 -40px;
+	border-top: solid 1px #d4d4d4;
+	padding: 40px;
+}
+#shippingTotal {
+	margin: 0 -40px;
+	padding: 40px;
+	text-align: left;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+}
+#shippingTotal h2 {
+	font-size: 20px;
+}
+#shippingTotal p {
+	font-size: 18px;
+	margin-bottom: 34px;
+}
+#totalPrice {
+	padding: 30px 0 0 0;
+}
+#totalPriceLabel {
+	font-size: 36px;
+}
+#totalPricePrice {
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+
+
+/***** Step 5 *****/
+#step5Thankyou {
+	background-color: #ffffff;
+	border: solid 1px #dedede;
+	padding: 90px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+#step5Message {
+	float: left;
+	width: 50%;
+}
+#step5Title {
+	text-align: left;
+}
+#step5Title h1 {
+	font-size: 42px;
+}
+#step5Content {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#step5Content p {
+	font-size: 18px;
+}
+#step5Content h2 {
+	padding: 140px 0 0 0;
+	font-size: 24px;
+}
+#referLink {
+	float: left;
+	width: 330px;
+	margin-bottom:0;
+}
+#referShare h3 {
+    margin-bottom: 18px;
+}
+#step5Review {
+	float: right;
+	width: 38%;
+	margin: 0;
+	border: solid 1px #d4d4d4;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	padding: 40px 40px 0 40px;
+}
+#step5Review h1 {
+	font-size: 36px;
+}
+.orderItemDesc strong {
+	font-size: 20px;
+}
+.orderItemDesc em {
+	font-size: 20px;
+}
+#navDashboard  {
+    position: absolute;
+    right: 27px;
+    top: 22px;
+    width: 170px;
+}
+#navDashboard a {
+    border: solid 2px #5dcc69;
+    height: 54px;
+    padding: 0;
+    line-height: 54px;
+    color: #5dcc69;
+    font-size: 20px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-transform: uppercase;
+}
+
+
+
+
+/***** Dashboard *****/
+#dashboard {
+    margin: -47px 0 0 0;
+    padding: 87px 0 0 0;
+}
+#dashboardContent {
+	padding: 60px;
+	margin-bottom: 0;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+}
+#dashboardTitle h1 {
+	font-size: 42px;
+	margin-bottom: 40px; 
+}
+.dashboardSub {
+	min-height: 254px;
+	width: 49%;
+}
+.dashSubImg {
+	width: 40%;
+}
+.dashSubDesc {
+	width: 56%;
+}
+.dashboardSub h2 {
+	font-size: 20px;
+}
+.dashSubDesc p {
+	margin: 0 0 20px 0;
+}
+.dashSubDesc p em {
+	font-size: 18px;
+}
+.dashboardSub p strong {
+	font-size: 16px;
+}
+.dashSubButtons .button {
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+	font-size: 16px;
+	margin: 0 8px 0 0;
+}
+#dashboardAddSub {
+	width: 49%;
+}
+#dashboardAddSub a {
+	padding: 106px 0 0 0;
+    min-height: 143px;
+	font-size: 24px;
+}
+#dashboardAddSub a i {
+    top: 88px;
+}
+#dashboardFooter li {
+	float: left;
+	width: auto;
+}
+li#dashboardFooterCancel {
+	float: right;
+}
+li#dashboardFooterUpdate,
+li#dashboardFooterShipping {
+	padding-top: 8px;
+	margin-right: 28px;
+}
+#dashboardFooter {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #f1f1f1;
+	padding:0;
+	max-width: 1180px;
+}
+#dashboardFooter .wrapper {
+	width: 100%;
+	border: solid 1px #d4d4d4;
+	border-top: 0;
+	padding: 46px 46px 26px 46px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+}
+#modalBilling {
+	background: none;
+	margin-left: -286px;
+	margin-top: -212px;
+	width: 572px;
+}
+#modalBilling .wrapper {
+	    max-width: 572px;
+}
+#modalBilling #creditCard {
+	margin-bottom: 24px;
+}
+#modalBilling input[type=tel],
+#modalBilling input[type=email],
+#modalBilling input[type=text] {
+	background: #fff;
+}
+#modalShipping {
+	background: none;
+	width: 674px;
+	margin-left: -337px;
+	margin-top: -339px;
+}
+#modalShipping .wrapper {
+	max-width: 674px;
+}
+#modalShipping h1 {
+	font-size: 36px;
+	text-align: left;
+}
+
+
+
+
+@media screen and (min-width: 1110px) {
+	#compImg {
+		background-size: 520px auto;
+	}
+}
+@media screen and (min-width: 1180px) {
+	.wrapper {
+	    max-width: 1180px;
+    }
+    #nutrition .wrapper {
+	    position: relative;
+    }
+    #nutrition.showDescriptions {
+		padding-bottom: 100px;     
+    }
+    #nutrition.showDescriptions .wrapper {
+	    min-height: 620px;
+    }
+    #nutrition li {
+	    width: 28%;
+    }
+    #nutrition li:nth-child(1), #nutrition li:nth-child(2), #nutrition li:nth-child(3) {
+	    left: 0;
+    }
+    #nutrition li:nth-child(4), #nutrition li:nth-child(5), #nutrition li:nth-child(6) {
+	    right: 0;
+    }
+	#testimonials {
+		max-width: 1180px;
+		margin: 0 auto;
+	}
+	#join {
+		-moz-border-radius:3px;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		margin-bottom: 80px;
+		padding: 64px 0 75px 0;
+	}
+	#join .wrapper {
+		max-width: 980px;
+	}
+	#join h2 {
+		margin-bottom: 60px;
+		width: 58%;
+	}
+	#joinDogs {
+		width: 42%;
+	}
+	#suppliments {
+		margin-bottom: 70px;
+		padding: 64px 0 75px 0;
+	}
+	#suppliments .wrapper {
+		max-width: 980px;
+	}
+	#howFriend .wrapper {
+    	width: 100%;
+	}
+	#notAvailable {
+		min-height: 1100px;
+	}
+	#step3Text {
+		background-position: left top;
+		background-size: 44% auto;
+	}
+	#dashboardAddSub a {
+		min-height: 157px;
+	}
+	.dashSubImg {
+		margin-right: 6%;
+	}
+	.dashSubDesc {
+		width: 54%;
+		padding-top: 14px;
+	}
+	.dashboardSub h2 {
+		margin-bottom: 12px;
+	}
+	.dashboardSub p {
+		font-size: 14px;
+	}
+	.dashboardSub p strong {
+		padding: 12px 0;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+    nav ul {
+	    width: 527px;
+    }
+    nav li {
+	    margin-left: 40px;
+    }
+    #comparison {
+	    margin-bottom: 70px;
+    }
+    #comparison h2 {
+	    font-size: 42px;
+    }
+    #comparison p {
+		font-size: 18px;
+		line-height: 1.78;
+		letter-spacing: -0.4px;
+    }
+    #nutrition {
+	    padding-bottom: 70px;
+    }
+    #threePoint {
+	    padding: 80px 0 46px 0;
+    }
+    footer {
+	    padding: 80px 0 100px 0;
+    }
+    footer .wrapper {
+	    position: relative;
+    }
+    #footerSocial {
+		top: 21px;
+		left: 163px;
+    }
+    #footerSubscribe {
+	    top: 0;
+	    width: 790px;
+    }
+    #footerSubscribe ol {
+	    margin: 0;
+	    width: 480px;
+    }
+    #footerSubscribe input {
+	    height: 65px;
+	    line-height: 65px;
+	    border: solid 3px #eee;
+	    -moz-border-radius:7px;
+	    border-radius:7px;
+	    -webkit-border-radius:7px;
+	    height: 70px;
+    }
+    #footerSubscribe input[type=email] {
+	    background-position: 18px -58px;
+	    width: 336px;
+    }
+    #footerSubscribe input[type=email]:focus {
+	    border-color: #dfdfdf;
+    }
+    #footerSubscribe input[type=submit] {
+	    width: 181px;
+    }
+    #footerSubscribe p {
+		font-size: 18px;
+		line-height: 1.06;
+		letter-spacing: -0.4px;
+		width: 290px;
+		margin-right: 19px;
+		padding-top: 14px;
+    }
+    #whyFarmerBobs #wfbSet1 h2,
+    #whyFarmerBobs #wfbSet1 p {
+	    width: 42%;
+    }
+    #whyFarmerBobs #wfbSet2 img {
+	    margin-left: -282px;
+    }
+    #whyFarmerBobs #wfbSet2 h2, 
+    #whyFarmerBobs #wfbSet2 p {
+	    width: 680px;
+	    margin-left: 500px;
+    }
+    #whyFarmerBobs #wfbSet2 h2 {
+	    padding: 100px 0 0 0;
+		width: 450px;
+    }
+    #neverRunOut h2, #neverRunOut p {
+	    margin-left: 56%;
+    }
+    #neverRunOut h2 {
+	    padding-top: 46px;
+    }
+    #neverRunOut p {
+	    width: 480px;
+    }
+    #neverRunOut img {
+	    margin-left: 70px;
+    }
+    #howIntro {
+	    background-size: 431px auto;
+	    background-position: 10% top;
+	    height: 428px;
+	    padding: 0;
+    }
+    #howIntro h1 {
+	    max-width: 600px;
+	    margin-left: 41%;
+	    padding-top: 100px;
+    }
+    #howIntro p {
+	    margin-left: 50%;
+	    width: 380px;
+    }
+    #howSteps i {
+	    background-size: 110px auto;
+	    width: 92px;
+		height: 121px;
+    }
+    #howStep1 i {
+	    background-position: -10px -611px;
+	    margin: 10px auto 18px auto;
+    }
+    #howStep2 i {
+	    background-position: 0px -745px;
+	    width: 112px;
+		height: 139px;
+    }
+    #howStep3 i {
+	    background-position: -8px -1019px;
+	    margin: 20px auto 13px auto;
+	}
+	#howStep4 i {
+	    background-position: -8px -897px;
+	    margin: 19px auto 14px auto;
+	}
+	.stepArrow {
+	    background-position: 0 -1055px;
+	    background-size: 100px auto;
+		height: 63px;
+		width: 110px;
+		left: -70px;
+		top: 85px;
+	}
+	#howSteps em {
+		font-size: 18px;
+		line-height: 1.78;
+	}
+	#notAvailable {
+		min-height: 1120px;
+	}
+}
+@media screen and (min-width: 1800px) {
+    #notAvailable {
+		min-height: 1320px;
+	}
+}
+
+
+
+

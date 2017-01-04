@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Setup Get Started | Farmer Bobs Natural Pet Food</title>
+
+<link rel="shortcut icon" href="ui/images/favicon.ico">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Roboto+Mono" rel="stylesheet">
+
+<link rel="stylesheet" media="screen" href="ui/css/global.css">
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="ui/css/tablet.css">
+<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="ui/css/desktop.css">
+<!--[if lte IE 8]>
+	<link rel="stylesheet" media="screen" href="ui/css/tablet.css">
+	<link rel="stylesheet" media="screen" href="ui/css/desktop.css">
+<![endif]-->
+
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+ 
+<body class="greyBackground">
+<i id="iconMenu" class="closed"></i>
+
+<!-- container start -->
+<div id="container">
+
+	<header>
+		<div class="wrapper">
+			<div id="logo"><a href="home.html"></a></div>
+		</div>
+	</header>
+	
+	<nav>
+		<ul>
+			<li id="navDashboard"><a href="#">Logout</a></li>
+		</ul>
+	</nav>
+	
+	<div id="dashboard">
+		<div class="wrapper">
+			
+			<div id="dashboardContent">
+			
+				<div id="dashboardTitle">
+					<h1>Your Current Subscriptions</h1>			
+				</div>
+				
+				<div id="dashboardSubscriptions">
+					
+					<div class="dashboardSub">
+						<div class="dashSubImg">
+							<img src="ui/images/placeholder_product.jpg" alt="">
+						</div>
+						<div class="dashSubDesc">
+							<h2>Max's Meal Plan</h2>
+							<p>
+								<em>Two daily 400 calorie meals</em>
+								<strong>$180/month</strong>
+								<i>Next billing cycle 28 Mar 16</i>
+							</p>
+							<div class="dashSubButtons">
+								<a class="button buttonPause">Pause</a>
+								<a class="button buttonEdit">Edit</a>
+							</div>
+						</div>
+					</div>
+					
+					<div id="dashboardAddSub">
+						<a href="">
+							<i></i>
+							<strong>Add another Meal Plan</strong>
+						</a>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+		
+	<footer id="dashboardFooter">
+		<div class="wrapper">
+			<div id="footerNav">
+				<ul>
+					<li id="dashboardFooterUpdate"><a>UPDATE BILLING INFO</a></li>
+					<li id="dashboardFooterShipping"><a>UPDATE SHIPPING INFO</a></li>
+					<li id="dashboardFooterCancel"><a>CANCEL SUBSCRIPTION</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</div>
+<!-- container end -->
+
+<!-- Modal START -->
+<div id="modalBg" class="dashboardModalBg"></div>
+<div id="modalBilling" class="modalContent">
+	<div class="wrapper">
+		<div class="modalClose"></div>
+		<div id="creditCard">
+			<div id="creditCardIcons"><img src="ui/images/icon-creditcards.png" alt=""></div>
+			<ol>
+				<li id="creditCardNumber">
+					<label>Card Number</label>
+					<input type="tel">
+					<i class="validTick"></i>
+				</li>
+				<li id="creditCardName">
+					<input type="text" placeholder="Cardholder Name">
+				</li>
+				<li id="creditCardExpiry">
+					<label>Expires</label>
+					<select>
+						<option>08</option>
+					</select>
+					/
+					<select>
+						<option>18</option>
+					</select>
+				</li>
+				<li id="creditCardCVC">
+					<label>CVC <i class="info">?</i></label>
+					<input type="tel">
+				</li>
+			</ol>
+		</div>
+		<div id="creditButton">
+			<input type="submit" value="Update" class="button">
+		</div>
+	</div>
+</div>
+<div id="modalShipping" class="modalContent">
+	<div class="wrapper">
+		<div class="modalClose"></div>
+		<div id="shippingModalContent">
+			<h1>Update Shipping Info</h1>
+			<ol>
+				<li>
+					<label>Address</label>
+					<input type="text">
+				</li>
+				<li>
+					<label>Level, Apartment, Suite etc</label>
+					<input type="text">
+				</li>
+				<li class="addressSuburb">
+					<label>Suburb</label>
+					<input type="text">
+				</li>
+				<li class="addressPostcode">
+					<label>Postcode</label>
+					<input type="tel">
+				</li>
+				<li>
+					<label>State / Territory</label>
+					<input type="text">
+				</li>
+			</ol>			
+		</div>
+		<div id="shippingModalButton">
+			<a class="button">Update</a>
+		</div>
+	</div>
+</div>
+<!-- Modal END -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="ui/js/interface.js" type="text/javascript"></script>
+
+</body>
+</html>	

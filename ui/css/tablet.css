@@ -1,0 +1,881 @@
+.wrapper {
+	overflow: hidden;
+}
+h2 {
+	font-size: 32px;
+}
+
+/***** Get Started *****/
+#getStarted {
+	text-align: left;
+	position: relative;
+}
+#getStarted h1 {
+	margin-left: 47%;
+	font-size: 32px;
+	margin-bottom: 25px;
+}
+#getStartedImg {
+	position: absolute;
+	left: 5%;
+	top: 0;
+	width: 40%;
+}
+#getStartedImg img {
+	width: 100%;
+	max-width: 429px;
+}
+#getStartedPoints {
+	display: block;
+	clear: right;
+	margin-left: 47%;
+	margin-bottom: 25px;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+#getStartedPoints li {
+	float: left;
+	width: auto;
+	font-size: 18px;
+}
+#getStartedPoints li:first-child {
+	margin-right: 20px;
+}
+#getStartedPoints i {
+	float: left;
+	margin-right: 4px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/sprite-icon-howitworks.png) no-repeat 0 -1123px;
+    background-size: 95px auto;
+}
+#getStartedPoints .gsHuman {
+	background-size: 60px auto;
+	background-position: 0 -286px;
+	width: 44px;
+}
+#getStarted .button {
+	margin: 0 0 0 47%;
+	clear: right;
+	width: 189px;
+	height: 58px;
+	line-height: 58px;
+	font-size: 20px;
+}
+#getStarted .sticker {
+	width: 88px;
+	height: 95px;
+	right: 0;
+	background-position: 0 -92px;
+}
+
+
+
+
+/***** Comparison *****/
+#comparison {
+	overflow: hidden;
+	text-align: left;
+	padding: 60px 0 10px 0;
+}
+#compTheirs {
+	float: left;
+	width: 25%
+}
+#compImg {
+	float: left;
+	width: 50%;
+	height: 362px;
+	margin: 0;
+	background: url(../images/placeholder-food.jpg) no-repeat center center;
+	background-size: 100% auto;
+}
+#compOurs {
+	float: left;
+	width: 25%;
+}
+#comparison h2 {
+	font-size: 26px;
+}
+#comparison i {
+	margin: 0 0 20px 0;
+	width: 70px;
+	height: 70px;
+}
+#compTheirs i {
+	background-position: 0 -70px;
+}
+#compOurs i {
+	background-position: 0 0;
+}
+
+
+
+
+
+/***** Nutirtion *****/
+#nutrition {
+	position: relative;
+	padding: 24px 0 46px 0;
+}
+#nutrition ul {
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+}
+#nutrition li {
+	position: absolute;
+	width: 31%;
+	text-align: left;
+	display: block;
+	white-space: normal;
+	padding: 0;
+}
+#nutrition li:nth-child(1),
+#nutrition li:nth-child(2),
+#nutrition li:nth-child(3) {
+	left: 5%;
+}
+#nutrition li:nth-child(4),
+#nutrition li:nth-child(5),
+#nutrition li:nth-child(6) {
+	right: 5%;
+	left: inherit;
+}
+#nutrition li:nth-child(1),
+#nutrition li:nth-child(4) {
+	top: 120px;
+}
+#nutrition li:nth-child(2),
+#nutrition li:nth-child(5) {
+	top: 192px;
+}
+#nutrition li:nth-child(3),
+#nutrition li:nth-child(6) {
+	top: 262px;
+}
+#nutrition li i {
+	float: right;
+	width: 52px;
+	height: 52px;
+	margin: 0 0 0 12px;
+}
+#nutrition .nutTeeth {background-position: 0 -52px;}
+#nutrition .nutSkin {background-position: 0 0;}
+#nutrition .nutDigestion {background-position: 0 -208px;}
+#nutrition .nutImmune {background-position: 0 -105px;}
+#nutrition .nutMass {background-position: 0 -156px;}
+#nutrition .nutEnergy {background-position: 0 -261px;}
+
+#nutrition li strong {
+	float: left;
+	text-align: right;
+	width: 72%;
+	font-size: 16px;
+	line-height: 1.2;
+	padding-top: 6px;
+}
+#nutrition li:nth-child(2) strong,
+#nutrition li:nth-child(3) strong,
+#nutrition li:nth-child(5) strong {
+	line-height: 44px;
+}
+#nutrition li:nth-child(4) i,
+#nutrition li:nth-child(5) i,
+#nutrition li:nth-child(6) i {
+	float: left;
+	margin: 0 12px 0 0;
+}
+#nutrition li:nth-child(4) strong,
+#nutrition li:nth-child(5) strong,
+#nutrition li:nth-child(6) strong {
+	float: left;
+	text-align: left;
+}
+
+
+
+
+/***** Testimonials *****/
+.testimonialImage {
+	width: 88px;
+	height: 88px;
+	-moz-border-radius:44px;
+	border-radius:44px;
+	-webkit-border-radius:44px;
+}
+.testimonialImage img {
+	width: 90px;
+}
+#testimonials q {
+	font-size: 30px;
+	width: 80%;
+	max-width: 690px;
+	margin: 0 auto 20px auto; 
+}
+
+
+
+
+/***** Three Points *****/
+#threePoint {
+    padding: 52px 0 5px 0;
+}
+#threePoint h2 {
+	width: 75%;
+}
+#threePoint li {
+	float: left;
+	width: 33%;
+	padding: 0;
+}
+#threePoint strong {
+	width: 85%;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}
+#threePoint .pointDelivered {
+    background-position: 0 -144px;
+    width: 60px;
+    height: 75px;
+}
+#threePoint .pointCancel {
+    background-position: 0 -1639px;
+    background-size: 145px auto;
+    width: 144px;
+    height: 51px;
+}
+#threePoint li:last-child {
+    padding-top: 24px;
+}
+
+
+
+/***** Why Farmer Bobs *****/
+#whyFarmerBobs,
+#neverRunOut {
+	text-align: left;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+#whyFarmerBobs .wrapper,
+#neverRunOut .wrapper {
+	width: 90%;
+	overflow: visible
+}
+#whyFarmerBobs h1 {
+	position: static;
+	width: 100%;
+	float: left;
+	width: 60%;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+#whyFarmerBobs #wfbSet1 img {
+	margin-bottom: 34px;
+    position: static;
+    float: right;
+    width: 40%;
+}
+#whyFarmerBobs #wfbSet1 h2 {
+	padding-top: 0;
+	width: 50%;
+}
+#whyFarmerBobs #wfbSet1 p {
+	width: 50%;
+}
+#whyFarmerBobs #wfbSet2 {
+	position: relative;
+	clear: both;
+}
+#whyFarmerBobs #wfbSet2 img {
+    width: 68%;
+    max-width: 699px;
+    float: left;
+    margin-left: -200px;
+}
+#whyFarmerBobs #wfbSet2 h2,
+#whyFarmerBobs #wfbSet2 p {
+	margin-left: 300px;
+}
+#whyFarmerBobs #wfbSet2 h2 {
+	padding-top: 50px;
+}
+#neverRunOut {
+	padding-top: 42px;
+}
+#neverRunOut img {
+	float: left;
+	width: 45%;
+}
+#neverRunOut h2 {
+	font-size: 20px;
+}
+#neverRunOut h2,
+#neverRunOut p {
+	margin-left: 50%;
+}
+
+
+
+
+
+
+/***** Join *****/
+#join {
+	padding: 54px 0;
+}
+#join h2 {
+	text-align: left;
+	float: left;
+	width: 60%;
+	padding: 0;
+	font-size: 32px;
+}
+#joinDogs {
+	width: 38%;
+	float: right;
+	margin: 0;
+    padding: 30px 0 0 0;
+}
+#join ol {
+	width: 100%;
+}
+#join li {
+	float: left;
+	width: auto;
+	margin-right: 10px;
+}
+#join li:nth-child(2) {
+	width: 240px;
+}
+#join li:nth-child(3) {
+	margin: 0;
+}
+
+
+
+
+/***** Our Food *****/
+#naturalFood {
+	text-align: center;
+	background: url(../images/placeholder-ourfood-large.jpg) no-repeat center top;
+	background-size: 100% auto;
+	margin-bottom: 25px;
+}
+#naturalFood h1 {
+	font-size: 24px;
+	width: 50%;
+	margin: 0 auto 30px auto;
+	padding: 70px 0 0 0;
+}
+#naturalFood p {
+	width: 40%;
+	margin: 0 auto 100px auto;
+}
+#naturalFood ul {
+	max-width: 630px;
+	margin: 0 auto;
+}
+#naturalFood li {
+	float: left;
+	width: 29.3%;
+    padding: 0 2%;
+}
+#naturalFood li:last-child {
+	margin-top: 12px;
+}
+#naturalFood li i.foodSuitable {
+	padding-top: 6px;
+}
+#benefits {
+	position: relative;
+	margin-bottom: 60px;
+}
+#benefits img {
+	position: absolute;
+    left: 50%;
+    margin-left: -22%;
+    width: 43%;
+    max-width: 429px;
+    top: 0;
+}
+ul#benefitList {
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+#benefitList li {
+	float: left;
+	width: 25%;
+	text-align: left;
+}
+#benefitList li:nth-child(2),
+#benefitList li:nth-child(4) {
+	float: right;
+}
+#benefitList li:nth-child(3) {
+	clear: right;
+}
+#benefitList li i {
+	margin: 0 0 15px 0;
+}
+#benefitSubList {
+	display: block;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+}
+#benefitSubList li {
+	display: inline-block;
+	width: auto;
+	line-height: 25px;
+	font-weight: 400;
+}
+#benefitSubList li:first-child {
+	margin-right: 30px;
+}
+#benefitSubList li i {
+	display: block;
+    width: 40px;
+    height: 27px;
+    float: left;
+    margin: 0 10px 0 0;
+    background: url(../images/sprite-icon-howitworks.png) no-repeat 0 -252px;
+    background-size: 53px auto;
+}
+#benefitSubList #bslApproved i {
+	background: url(../images/sprite-icon-tickcross.png) no-repeat 0 1px;
+	width: 23px;
+    height: 24px;
+	background-size: 100% auto;
+}
+
+
+
+
+/***** Suppliments *****/
+#suppliments {
+	padding: 40px 0 50px 0;;
+	text-align: left;
+	background-size: 45% auto;
+}
+#suppliments p {
+	width: 50%;
+}
+
+
+
+
+/***** How it Works *****/
+#howIntro {
+	background-position: left top;
+	text-align: center;
+}
+#howIntro h1 {
+	font-size: 42px;
+	margin: 0 0 20px 40%;
+}
+#howIntro p {
+	font-size: 18px;
+	line-height: 1.78;
+	margin: 0 0 20px 40%;
+	max-width: 400px;
+}
+#howSteps ol {
+	max-width: 100%;
+}
+#howSteps li {
+	float: left;
+	width: 23%;
+	margin-right: 2.65%;
+}
+#howSteps li:last-child {
+	margin: 0;
+}
+.stepArrow {
+	height: 23px;
+    width: 85px;
+    position: absolute;
+    left: -44px;
+    top: 94px;
+    background-position: 0 -539px;
+    background-size: 50px auto;
+}
+#howStep1 i {
+	margin-bottom: 28px;
+}
+#howStep3 i {
+	margin: 10px auto 18px auto;
+}
+#howStep4 i {
+	margin: 14px auto 38px auto;
+}
+#howFriend {
+	background-position: 90% bottom;
+	background-size: 30% auto;
+	text-align: left;
+	padding: 0 0 20px 0;
+	min-height: 266px;
+}
+#howFriend h2 {
+	max-width: 60%;
+}
+#howFriend p {
+	max-width: 60%;
+}
+
+
+
+/***** FAQs *****/
+#faqsIntro h1 {
+	font-size: 42px;
+}
+#faqs {
+	padding: 60px 0;
+	background: url(../images/wood-bg.jpg) repeat-y 0 0;
+	background-size: 100% auto;
+}
+.question {
+	max-width: 780px;
+	margin: 0 auto 19px auto;
+}
+.question h2 {
+	font-size: 18px;
+	padding: 20px 24px;
+}
+.answer {
+	padding: 0 24px;
+}
+.answer p {
+	font-size: 16px;
+  line-height: 1.81;
+}
+#emailForm {
+	padding: 70px 0 80px 0;
+}
+#emailForm p {
+	font-size: 18px;
+	line-height: 1.78;
+	width: 530px;
+	margin: 0 auto 40px auto;
+}
+#emailForm input[type=submit] {
+	height: 90px;
+	font-size: 24px;
+}
+
+
+
+
+/***** Not Available *****/
+#notAvailable {
+	min-height: 900px;
+}
+#notAvailable h1 {
+	font-size: 42px;
+}
+#notAvailable p {
+	font-size: 18px;
+	max-width: 410px;
+	margin: 0 auto 45px auto;
+}
+p#notAvailableMessage {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+
+
+
+/***** Steps *****/
+#stepsContent .wrapper {
+	overflow: visible;
+}
+#stepFormWrapper {
+	margin: 0 auto;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+	max-width: 980px;	
+}
+#stepFormWrapper legend {
+	font-size: 18px;
+	padding: 30px 0 20px 0;
+}
+#stepFormWrapper fieldset {
+	font-size: 46px;
+	padding-bottom: 40px;
+	line-height: 1.4;
+}
+#stepFormWrapper input, 
+#stepFormWrapper select {
+	font-size: 46px;
+}
+#stepFormWrapper select {
+	padding: 0px 48px 0px 5px;
+    background-size: 26px auto;
+    background-position: 98% center;
+    line-height: 68px;
+}
+#stepFormWrapper .radioSlider {
+	width: 100%;
+	padding: 0;
+}
+#stepFormWrapper .radioSlider .radioSliderLine {
+	bottom: inherit;
+	right: 0;
+	left: 12%;
+    top: 9px;
+	width: 76%;
+	height: 10px;
+}
+#stepFormWrapper .radioSliderFive .radioSliderLine {
+	left: 9%;
+	width: 82%;
+}
+#stepFormWrapper .radioSlider label {
+	float: left;
+	width: 25%;
+	padding: 45px 0 0 0;
+	margin: 0;
+}
+#stepFormWrapper .radioSliderFive label {
+	width: 20%;
+}
+#stepFormWrapper .radioSliderMarker {
+	left: 50%;
+	margin-left: -12px;
+}
+#stepFormWrapper .radioSliderItem {
+	display: block;
+	padding: 0 20px;
+	text-align: center;
+	cursor: pointer;
+}
+#stepFormWrapper .radioSlider label strong {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+#stepFormWrapper .radioSlider label em {
+	font-size: 14px;
+	font-weight: 400;
+}
+#stepsFooter {
+	padding-top: 40px;
+}
+#stepsFooter .wrapper {
+	width: 90%;
+	padding-top: 40px;
+	max-width: 970px;
+}
+
+
+
+
+
+/***** Step 1 *****/
+#step1Intro {
+	width: 65%;
+	max-width: 630px;
+	margin: 0 auto 42px auto;
+}
+#step1Intro h1 {
+	font-size: 42px;
+}
+#step1Intro p {
+	font-size: 18px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+#stepFormWrapper #step1PetAllergies {
+	padding-bottom: 0;
+}
+.petAllergyLabel {
+	font-size: 30px;
+}
+.petAllergy {
+	width: 100px;
+	height: 80px;
+}
+.petAllergyBeef {background-position: 0 -520px;}
+.petAllergyChicken {background-position: 0 -704px;}
+.petAllergyFish {background-position: 0 -97px;}
+.petAllergyLamb {background-position: 0 -308px;}
+.petAllergyTurkey {background-position: 0 13px;}
+.petAllergyGrain {background-position: 0 -198px;}
+.petAllergyEggs {background-position: 0 -617px;}
+.petAllergyDairy {background-position: 0 -417px;}
+
+#step1PetAllergies label {
+	margin-bottom: 50px;
+}
+.cantEat {
+	background-size: 88px auto;
+}
+#stepButton input {
+	font-size: 24px;
+	height: 118px;
+}
+
+
+
+
+/***** Step 2 *****/
+#step2Image {
+	height: 186px;
+}
+fieldset#step2Text {
+	padding: 40px 0 2px 0;
+}
+#step2Text h1 {
+	font-size: 42px;
+	max-width: 600px;
+	margin: 0 auto 20px auto;
+}
+#step2Text h2 {
+	font-size: 30px;
+}
+.tickList li {
+    font-size: 16px;
+}
+fieldset#step2recipes {
+	padding-bottom: 0;
+}
+#step2recipes h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#step2recipes p {
+	font-size: 16px;
+}
+#recipeSelect {
+    margin: 0 auto;
+    max-width: 550px;
+}
+#recipeSelect .petAllergyLabel {
+	font-size: 12px;
+	padding: 0 10px;
+}
+#recipeDescriptions {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#recipeDescriptions .tickList {
+	margin-bottom: 0;
+}
+
+
+
+/***** Step 3 *****/
+#step3Content {
+	margin: 0;
+}
+#step3Text {
+	background: #fff url(../images/placeholder-suppliment-white.jpg) no-repeat left center;
+	background-size: 46% auto;
+	border: 1px solid #dedede;
+	padding: 80px 40px 80px 47%;
+	position: relative;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+}
+#step3Text .tickList {
+	text-align: left;
+	float: left;
+	width: 230px;
+}
+.recommendedSticker {
+	position: static;
+	background-position: right top;
+	width: 100%;
+}
+#step3Button {
+	text-align: left;
+}
+#step3SkipButton {
+	text-align: right;
+}
+
+
+
+/***** Checkout *****/
+#step4Checkout {
+	max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.step4CheckoutPanel {
+	border-right: solid 1px #e6e6e6;
+	border-left: solid 1px #e6e6e6;
+}
+
+
+
+
+/***** Dashboard *****/
+#dashboardContent {
+	margin: 0 0 40px 0;
+	padding: 40px;
+	border: solid 1px #d8d8d8;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+#dashboardTitle {
+	text-align: left;
+}
+#dashboardSubscriptions {
+	overflow: hidden;
+}
+.dashboardSub {
+	float: left;
+	width: 48%;
+	min-height: 156px;
+}
+.dashSubImg {
+	width: 37%;
+	margin: 0 4% 0 0;
+}
+.dashSubImg img {
+	display: block;
+}
+#dashboardAddSub {
+	float: left;
+	width: 48%;
+	position: relative;
+}
+#dashboardAddSub a {
+	min-height: 99px;
+    padding: 52px 0 0 0;
+}
+#dashboardAddSub a i {
+	position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    margin-left: -15px;
+    top: 41px;
+}
+#dashboardSubscriptions div:nth-child(even) {
+	float: right;
+}
+#dashboardSubscriptions div.dashSubDesc {
+	margin: 0;
+	float: left;
+}
+
+
+
+@media screen and (min-width: 890px) {
+		
+}
+@media screen and (min-width: 970px) {
+    #getStarted h1 {
+	    font-size: 40px;
+	    max-width: 500px;
+    }
+}
+	

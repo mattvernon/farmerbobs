@@ -1,0 +1,2354 @@
+/**** Global.css for Farmer Bobs Natural Pet Foods *****/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block; }
+
+
+
+
+/* 1.ROOT */
+
+html {
+	overflow-y: scroll;
+	background: #fff;
+	height: 100%;
+}
+body { 
+	margin: 0 auto;
+	padding: 0;
+	width: 100% /* 252px */;
+	font: 100%/1.4 "Rubik", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #4f7a81; 
+	background-color: transparent;
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+	height: 100%;
+}
+body.greyBackground {
+	background: #f7f7f7;
+}
+
+
+
+
+/* 2.HEADINGS */
+
+h1, 
+h2, 	
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family: "Rubik", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #012930;
+}
+h1 { 
+	margin-bottom: .75em;
+	font-size: 24px;
+	line-height: 1.13;
+	letter-spacing: -0.6px;
+}
+h2 { 
+	margin-bottom: .75em;
+	font-size: 24px;
+	line-height: 1.13;
+	padding-top: 0;
+	letter-spacing: -0.6px;
+}
+h3 { 
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	line-height: 1.3;
+}
+h4 { 
+	margin-bottom: 1.25em;
+	font-size: 1.1em;
+	line-height: 1.25;
+}
+h5 { 
+	margin-bottom: 1.5em;
+	font-size: 1em;
+}
+h6 { 
+	font-size: 1em;
+}
+
+
+
+
+
+/* 3.TYPOGRAPHY */
+
+p, 
+ol, 
+ul, 
+dl, 
+address { 
+	margin-bottom: 1.5em; 
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+}
+ul, 
+ol { 
+	margin: 0 0 1.5em -24px; 
+	padding-left: 24px;
+}
+ul { 
+	list-style-type: disc;
+	margin-left: 0.2em;
+}
+ol { 
+	list-style-type: decimal;
+	margin-left: 0.2em;
+}
+li ul, 
+li ol { 
+	margin: 0;
+	font-size: 1em;
+}
+blockquote  { 
+	margin: 0 0 1.5em -24px; 
+	padding-left: 24px; 
+	border-left: 1px solid rgb(200,200,200);
+	font-style: italic;
+}
+sup, 
+sub { 
+	position: relative;
+	font-size: 75%; 
+	line-height: 0;
+}
+sup { 
+	top: -.5em;
+}
+sub { 
+	bottom: -.25em;
+}
+input,
+textarea,
+select {
+	font-family: "Rubik", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+strong {
+	font-weight: 700;
+}
+
+
+
+
+
+/* 4.LINKS */
+
+a {
+	outline: none;
+	color: #4f7a81;
+}
+a:link {
+	-webkit-tap-highlight-color: #e6e6e6;
+}
+a:visited {
+	color: #4f7a81;
+}
+a:hover { 
+	outline: none;
+	color: #4f7a81; 
+	text-decoration: none;
+}
+a:active, 
+a:focus { 
+	outline: none;
+	color: #4f7a81;
+}
+
+
+
+
+
+/* 6.TABLES */
+
+table { 
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 1.4em; 
+	width: 100%;
+}
+th { 
+	font-weight: bold;
+}
+th, td, caption { 
+	padding: .25em 10px .25em 5px;
+}
+
+
+
+
+/* Form */
+form ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+input:active,
+input:focus {
+	outline: none;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password] {
+	height: 60px;
+	line-height: 60px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	padding: 0 14px;
+	border: none;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.78;
+	letter-spacing: -0.4px;
+	color: #4f7a81;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=password]:focus {
+	border: solid 3px #ececec;
+}
+
+textarea {
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	padding: 7px 14px;
+	border: none;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.78;
+	letter-spacing: -0.4px;
+	color: #4f7a81;
+}
+.button,
+.button:visited {
+	border: none;
+	background: #5dcc69;
+	color: #fff;
+	height: 60px;
+	line-height: 58px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 20px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	padding: 0 27px;
+	display: inline-block;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	
+}
+input.button2 {
+	background: #ff7676;
+}
+::-webkit-input-placeholder {color: #4f7a81;}
+::-moz-placeholder {color: #4f7a81;}
+:-ms-input-placeholder {color: #4f7a81;}
+:-moz-placeholder {color: #4f7a81;}
+
+:focus::-webkit-input-placeholder {color: #dfdfdf;}
+:focus::-moz-placeholder {color: #dfdfdf;}
+:focus:-ms-input-placeholder {color: #dfdfdf;}
+:focus:-moz-placeholder {color: #dfdfdf;}
+
+input[type=email] {
+	padding-left:60px;
+	background: #fff url(../images/sprite-icon-social.png) no-repeat 18px -60px;
+	background-size: 28px auto;
+}
+input[type=email]:focus {
+	background-position: 15px -63px;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+input[type=submit],
+textarea {
+	-webkit-appearance: none;
+}
+input.mapField {
+	padding-left:60px;
+	background: #fff url(../images/sprite-icon-social.png) no-repeat 18px -228px;
+	background-size: 28px auto;
+}
+input.mapField:focus {
+	background-position: 15px -231px;
+}
+
+
+
+/* CUSTOM */
+/* CUSTOM */
+/* CUSTOM */
+/* CUSTOM */
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+
+/***** Header *****/
+header {
+	height: 50px;
+	border-bottom: solid 1px #e6e6e6;
+	position: relative;
+	margin-bottom: 44px;
+	background: #fff;
+}
+#iconMenu {
+	color: #333;
+	text-align: center;
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	right: 16px;
+	z-index: 9999;
+	background: url(../images/sprite-icon-nav.png) no-repeat 18px 3px;
+    background-size: 22px auto;
+}
+#iconMenu.open {
+	background-position: 18px -24px;
+	position: fixed;
+}
+#logo {
+	width: 60px;
+	height: 60px;
+	background: url(../images/logo.png) no-repeat 0 0;
+	background-size: 100% auto;
+	position: absolute;
+	left: 5%;
+	top: 18px;
+	z-index: 9999;
+}
+#logo a {
+	display: block;
+	height: 60px;
+}
+nav {
+	display: none;
+	position: fixed;
+	width: 100%;
+	left:0;
+	top: 0;
+	z-index: 9990;
+	background-color: rgba(92,203,105,0.95);
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 65px 14% 44px 14%;
+}
+nav a,
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 52px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+#navLogin {
+	margin-bottom: 38px;
+}
+#navGetStarted a {
+	margin: 0 auto;
+	width: 150px;
+	height: 34px;
+	border-radius: 4px;
+	border: solid 3px #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+/***** Comparison *****/
+#comparison {
+	background: #eee;
+	text-align: center;
+	padding: 45px 0;
+	margin-bottom: 34px;
+}
+#comparison i {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 20px auto;
+	background: url(../images/sprite-icon-tickcross.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+#compTheirs i {
+	background-position: 0 -40px;
+}
+#compOurs p {
+	margin-bottom: 0;
+}
+#comparison h2 {
+	font-size: 24px;
+}
+#compImg {
+	width: 100%;
+	height: 210px;
+	background: url(../images/placeholder-food-mobile.jpg) no-repeat center center;
+	background-size: auto 100%;
+	margin: 0 0 20px 0;
+}
+
+
+
+
+/***** Join *****/
+#join {
+	background: #073c46;
+	color: #fff;
+	padding: 34px 0;
+}
+#join h2 {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 5%; 
+}
+#joinDogs {
+	width: 95%;
+	margin: 0 auto 20px auto;
+}
+#joinDogs img {
+	width: 100%;
+	height: auto;
+}
+#join ol {
+	width: 288px;
+	margin: 0 auto;
+	clear: both;
+}
+#join input {
+	width: 100%;
+	max-width: 288px;
+	margin-bottom: 10px;
+}
+#join input:focus {
+	border-color: #fff;
+}
+
+
+
+
+/***** Get Started *****/
+#getStarted {
+	text-align: center;
+	padding: 0 0 58px 0;
+}
+#getStarted h1 {
+	margin: 0 auto 10px auto;
+	max-width: 400px
+}
+#getStarted .button {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	padding: 0;
+	letter-spacing: 0.3px;
+}
+#getStartedImg {
+	position: relative;
+	margin: 0 auto 22px auto;
+}
+#getStartedImg img {
+	width: 72%;
+	max-width: 310px;
+	height: auto;
+}
+#getStartedImg .sticker {
+	width: 56px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	right: 18%;
+	background: url(../images/sprite-icon-stickers.png) no-repeat 0 -59px;
+	background-size: 100% auto;
+	z-index: 1;
+}
+#getStartedPoints {
+	display: none;
+}
+
+
+
+
+/***** Nutrition *****/
+#nutrition {
+	text-align: center;
+	padding: 0 0 30px 0;
+}
+#nutrition h2 {
+	width: 90%;
+	margin: 0 auto 0.75em auto;
+}
+#nutrition img {
+	max-width: 220px;
+	height: auto;
+	display: block;
+	margin: 0 auto 18px auto;
+}
+#nutrition ul {
+	margin: 0 auto;
+	padding: 0 23px 0 0;
+	max-width: 328px;
+}
+#nutrition li {
+	list-style-type: none;
+	overflow: hidden;
+	width: auto;
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 52px;
+    margin-bottom: 6px;
+}
+#nutrition li strong {
+	color: #012930;
+	display: block;
+	line-height: 40px;
+	font-size: 12px;
+}
+#nutrition li em {
+	display: none;
+}
+#nutrition li i {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 12px 0 0;
+	background: url(../images/sprite-icon-nutrition.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+#nutrition .nutTeeth {background-position: 0 -40px;}
+#nutrition .nutSkin {background-position: 0 0;}
+#nutrition .nutDigestion {background-position: 0 -160px;}
+#nutrition .nutImmune {background-position: 0 -80px;}
+#nutrition .nutMass {background-position: 0 -120px;}
+#nutrition .nutEnergy {background-position: 0 -200px;}
+
+
+
+
+
+/***** Testimonials *****/
+#testimonials {
+	background: #5dcc69;
+	padding: 45px 0 50px 0;
+	text-align: center;
+}
+#testimonials q {
+	display: block;
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.2;
+	letter-spacing: -0.3px;
+	margin-bottom: 18px;
+}
+#testimonials cite {
+	color: #073c46;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.testimonialImage {
+	width: 64px;
+	height: 64px;
+	-moz-border-radius:32px;
+	border-radius:32px;
+	-webkit-border-radius:32px;
+	overflow: hidden;
+	box-shadow: 0px 2px 7px #5cbc67;
+	margin: 0 auto 28px auto;
+}
+.testimonialImage img {
+	width: 65px;
+	height: auto
+}
+
+
+
+/***** Three Points *****/
+#threePoint {
+	padding: 42px 0;
+	text-align: center;
+}
+#threePoint h2 {
+	width: 90%;
+	margin: 0 auto 50px auto;
+}
+#threePoint ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#threePoint li {
+	margin-bottom: 50px;
+}
+#threePoint li:last-child {
+	margin-bottom: 22px;
+}
+#threePoint i {
+	display: block;
+    height: 75px;
+    width: 70px;
+    margin: 0 auto 18px auto;
+    background: url(../images/sprite-icon-howitworks.png) no-repeat 0 -84px;
+    background-size: 100% auto;
+}
+#threePoint .pointDelivered {
+	background-position: 0 -169px;
+	height: 89px;
+}
+#threePoint .pointCancel {
+	background-position: 0 -1255px;
+	background-size: 111px auto;
+	width: 112px;
+	height: 39px;
+}
+#threePoint strong {
+	font-weight: 400;
+}
+
+
+
+
+/***** Why Farmer Bobs *****/
+#whyFarmerBobs,
+#neverRunOut {
+	text-align: center;
+	margin-bottom: 60px;
+}
+#whyFarmerBobs .wrapper,
+#neverRunOut .wrapper {
+	width: 85%;
+}
+#whyFarmerBobs h1 {
+	position: absolute;
+	width: 50%;
+	top: 130px;
+	left: 50%;
+	text-align: left;
+	z-index: 1;
+}
+#whyFarmerBobs h2 {
+	font-size: 20px;
+	margin-bottom: 24px;
+	line-height: 1.4;
+}
+#whyFarmerBobs img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+#whyFarmerBobs #wfbSet1 img {
+	margin-bottom: 34px;
+    position: absolute;
+    left: 0;
+    width: 240px;
+}
+#whyFarmerBobs #wfbSet1 h2 {
+	padding-top: 364px;
+}
+#whyFarmerBobs #wfbSet2 img {
+	margin-bottom: 14px;
+}
+#neverRunOut {
+	padding-top: 10px;
+}
+#neverRunOut img {
+	max-width: 80%;
+	height: auto;
+	display: block;
+	margin: 0 auto 40px auto;
+}
+
+
+
+
+/***** Our Food *****/
+#naturalFood {
+	background: url(../images/placeholder-foodbowl-left.jpg) no-repeat right 50px;
+    background-size: 27% auto;
+    margin-bottom: 50px;
+}
+#naturalFood p {
+	width: 60%;
+}
+#naturalFood ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#naturalFood li {
+	width: 200px;
+	margin: 0 auto 45px auto;
+}
+#naturalFood li i {
+	display: block;
+	height: 72px;
+	width: 66px;
+	margin: 0 auto 14px auto;
+	background: url(../images/sprite-icon-howitworks.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+#naturalFood li i.foodIngredients {
+	background-position: 0 -79px;
+}
+#naturalFood li i.foodSuitable {
+	background-position: 2px -250px;
+    height: 52px;
+}
+#naturalFood li strong {
+	display: block;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+#benefits {
+	padding: 0 0 20px 0;
+}
+#benefits img {
+	width: 100%;
+	max-width: 240px;
+	height: auto;
+	margin: 0 auto 30px auto;
+	display: block;
+}
+#benefits ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul#benefitList {
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto;
+}
+#benefitList li {
+	margin-bottom: 30px;
+}
+#benefitList li i {
+	display: block;
+	width: 36px;
+    height: 36px;
+    margin: 0 auto 15px auto;
+    background: url(../images/sprite-icon-tickcross.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+#benefitList li strong {
+	display: block;
+	font-size: 16px;
+  letter-spacing: -0.4px;
+  color: #012930;
+}
+#benefitSubList {
+	display: none;
+}
+#suppliments {
+	padding: 0 0 50px 0;
+	text-align: center;
+	color: #fff;
+	background: #5dcc69 url(../images/placeholder-suppliment.jpg) no-repeat right top;
+	background-size: 65% auto;
+}
+#suppliments h2 {
+	color: #fff;
+}
+#suppliments p {
+	margin: 0;
+}
+
+
+
+
+/***** How it Works *****/
+#howIntro {
+	background: url(../images/placeholder-how-dog1.jpg) no-repeat 103% bottom;
+	background-size: 40%;
+	padding: 0 0 30px 0;
+}
+#howIntro h1 {
+	max-width: 400px;
+}
+#howIntro p {
+	width: 60%;
+}
+#howSteps {
+	background: url(../images/wood-bg-mob.jpg) no-repeat 0 0;
+	background-size: auto 100%;
+	padding: 0 0 54px 0;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 40px;
+}
+#howSteps ol {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 300px;
+}
+#howSteps li {
+	padding-top: 50px;
+	position: relative;
+}
+#howSteps i {
+	width: 80px;
+	height: 92px;
+	display: block;
+	margin: 0 auto 15px auto;
+	background: url(../images/sprite-icon-howitworks.png) no-repeat 0 -1169px;
+	background-size: 85px auto;
+}
+#howSteps strong {
+	font-size: 16px;
+	line-height: 1.44;
+	display: block;
+	width: 60%;
+	margin: 0 auto 15px auto;
+}
+#howStep1 i {
+	background-position: -8px -472px;
+}
+#howStep2 i {
+	background-position: 0px -576px;
+	width: 86px;
+    height: 105px;
+}
+#howStep3 i {
+	background-position: -8px -783px;
+}
+#howStep4 i {
+	background-position: -8px -698px;
+	height: 67px;
+}
+.stepArrow {
+	height: 93px;
+    width: 85px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background: url(../images/sprite-icon-howitworks.png) no-repeat 0 -1213px;
+    background-size: 100px auto;
+}
+#howFriend {
+	text-align: center;
+	padding-bottom: 250px;
+	background: url(../images/placeholder-how-dog2-small.jpg) no-repeat center bottom;
+	background-size: auto 250px;
+}
+
+
+
+
+/***** FAQs *****/
+#faqsIntro {
+	text-align: center;
+	padding: 0px 0 20px 0;
+}
+#faqs {
+	padding: 12px 0;
+	background: url(../images/wood-bg-mob.jpg) repeat-y 0 0;
+	background-size: 100% auto;
+}
+.question {
+	background-color: #ffffff;
+	border: solid 2px #d4d4d4;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	margin: 0 0 12px 0;
+}
+.question:last-child {
+	margin-bottom: 0;
+}
+.question h2 {
+	font-size: 14px;
+	padding: 17px;
+	margin: 0;
+	cursor: pointer;
+}
+.answer {
+	display: none;
+	padding: 0 17px;
+}
+
+
+
+
+/***** Email Form *****/
+#emailForm {
+	background-color: #f6f4f4;
+	padding: 40px 0 20px 0;
+}
+#emailForm h2 {
+	text-align: center;
+}
+#emailForm p {
+	text-align: center;
+}
+#emailForm ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#emailForm li {
+	margin-bottom: 28px;
+}
+#emailForm li:last-child {
+	margin-bottom: 0;
+}
+#emailForm input,
+#emailForm textarea {
+	width: 100%;
+	border: solid 1px #ececec;
+}
+#emailForm input[type=submit] {
+	max-width: 285px;
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
+/***** Not Available *****/
+#notAvailable {
+	background: #1a1823 url(../images/not-available.jpg) no-repeat center bottom;
+	background-size: 100% auto;
+	text-align: center;
+	color: #fff;
+	min-height: 600px;
+	padding: 40px 0;
+	margin: -44px 0 0 0;
+}
+#notAvailable .wrapper {
+	max-width: 320px;
+}
+#notAvailable h1 {
+	color: #fff;
+}
+#notAvailable p {
+	font-size: 14px;
+	color: #4f7a81;
+	margin-bottom: 30px;
+}
+p#notAvailableMessage {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.35;
+	color: #fff;
+	margin-bottom: 15px;
+}
+#notAvailable input {
+	width: 100%;
+	margin-bottom: 13px;
+}
+
+
+
+
+
+/***** Footer *****/
+footer {
+	background: #eee;
+	padding: 40px 0 34px 0;
+	position: relative;
+}
+#footerLogo {
+	width: 60px;
+	height: 60px;
+	background: url(../images/logo.png) no-repeat 0 0;
+	background-size: 100% auto;
+	text-indent: -9999px;
+	margin-left: 19px;
+}
+#footerSocial {
+	position: absolute;
+	top: 58px;
+	right: 47px;
+	width: 150px;
+}
+#footerSocial ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#footerSocial li {
+	display: inline-block;
+	width: 28px;
+	margin-left: 25px;
+}
+#footerSocial a {
+	display: block;
+	height: 28px;
+	background: url(../images/sprite-icon-social.png) no-repeat 0 -158px;
+	background-size: 28px auto;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#footerSocial .facebook {
+	width: 12px;
+}
+#footerSocial .facebook a {
+	background-position: 0 2px;
+}
+#footerSubscribe {
+	padding: 35px 0;
+}
+#footerSubscribe p {
+	padding: 0;
+	margin: 0 0 33px 0;
+	text-align: center;
+}
+#footerSubscribe ol {
+	margin: 0 auto;
+	width: 288px;
+}
+#footerSubscribe input[type=email] {
+	margin-bottom: 13px;
+	width: 100%;
+	max-width: 288px;
+}
+#footerSubscribe input[type=submit] {
+	width: 100%;
+	max-width: 288px;
+}
+#footerNav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#footerNav li {
+	display: inline;
+	width: auto;
+	padding: 0 10px;
+}
+#footerNav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+
+
+/***** Modals *****/
+#modalBg {
+	display: none;
+	background: rgba(0, 40, 47, 0.9);
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 9999;
+}
+#modalBg.dashboardModalBg {
+	background-color: rgba(0, 40, 47, 0.97);
+}
+.modalContent .wrapper {
+	max-width: 390px;
+}
+.modalClose {
+	color: #333;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    position: fixed;
+    top: 15px;
+    right: 16px;
+    z-index: 9999;
+    background: url(../images/sprite-icon-nav.png) no-repeat  18px -24px;
+    background-size: 22px auto;
+}
+.modalContent {
+	display: none;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	padding: 42px 0 0 0;
+	color: #fff;
+}
+.modalContent h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.modalContent input {
+	width: 100%;
+}
+.modalContent input[type=submit] {
+	width: 80%;
+	margin: 35px auto 25px auto;
+	display: block;
+}
+.modalContent li {
+	margin-bottom: 25px;
+}
+#forgotPassword {
+	text-align: center;
+	display: block;
+	color: #fff;
+}
+
+
+
+
+
+/***** Step Markers *****/
+#stepMarkers {
+	position: absolute;
+	right: 32px;
+	top: 20px;
+	width: 190px;
+}
+#stepBar {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	height: 4px;
+	background: #ececec;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+}
+#stepSteps {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.stepStep {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 12px;
+}
+.stepStep2 {
+	left:59px
+}
+.stepStep3 {
+	left:119px;
+}
+.stepStep4 {
+	left:inherit;
+	right:0;
+}
+.stepStep em {
+	display: none;
+}
+.stepMarker {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 12px;
+	height: 12px;
+	background: #ececec;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+}
+.stepStep4 .stepMarker {
+	left: inherit;
+	right: 0;
+}
+.stepMarkerOn {
+	display: none;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	top: 2px;
+	left: 2px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	background: #5dcc69;
+}
+.stepLineOn {
+	display: none;
+	position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 2px;
+    width: 30px;
+    background: #5dcc69;
+}
+.stepStep1 .stepMarkerOn,
+.stepStep1 .stepLineOn {
+	display: block;
+}
+.stepStep2 .stepLineOn {
+	left: -54px;
+    width: 90px;
+}
+.stepStep3 .stepLineOn {
+	left: -114px;
+    width: 150px;
+}
+.stepStep4 .stepLineOn {
+	left: -137px;
+    width: 177px;
+}
+.step2 .stepStep2 .stepMarkerOn,
+.step2 .stepStep2 .stepLineOn,
+.step3 .stepStep2 .stepMarkerOn,
+.step3 .stepStep3 .stepMarkerOn,
+.step3 .stepStep3 .stepLineOn,
+.step4 .stepStep2 .stepMarkerOn,
+.step4 .stepStep3 .stepMarkerOn,
+.step4 .stepStep4 .stepMarkerOn,
+.step4 .stepStep4 .stepLineOn {
+	display: block;
+}
+
+
+
+
+/***** Steps Content *****/
+#stepsContent {
+	background: #f7f7f7;
+	margin: -44px 0 0 0;
+	padding: 44px 0 0 0;
+}
+#stepFormWrapper {
+	background: #fff;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	margin: 0 -5.5%;	
+}
+#stepFormWrapper fieldset {
+	border-bottom: 1px solid #d4d4d4;
+	padding: 0 5% 30px 5%;
+	font-size: 24px;
+	font-weight: 500;
+	color: #012930;
+}
+#stepFormWrapper input,
+#stepFormWrapper select,
+#stepFormWrapper .button {
+	font-size: 24px;
+	font-weight: 500;
+	color: #012930;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	-webkit-appearance:none;
+}
+#stepFormWrapper .button {
+	color: #fff;
+}
+#stepFormWrapper select {
+	background: #f7f7f7 url(../images/select-arrow.png) no-repeat right center;
+	background-size: 15px auto;
+	border: solid 1px #ececec;
+	line-height: 34px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	padding: 2px 20px 2px 2px;
+}
+#stepFormWrapper select:hover {
+	background-color: #eeeeee;
+	border: solid 2px #dfdfdf;
+}
+#stepFormWrapper fieldset input[type=text] {
+	background: none;
+	border: none;
+	display: inline-block;
+	border-bottom: 2px solid #7baeb7;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	line-height: 1.2;
+    padding: 0;
+    width: 80%;
+}
+#stepFormWrapper legend {
+	font-size: 10px;
+	font-weight: 800;
+	color: #012930;
+	padding: 20px 0 12px 0;
+	text-transform: uppercase;
+}
+#stepFormWrapper legend .alert {
+	color: #fd7779;
+}
+#stepFormWrapper .radioButtons {
+	overflow: hidden;
+	border: 1px solid #f1f1f1;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	line-height: 44px;
+}
+#stepFormWrapper .radioButtons label {
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	border-right: 1px solid #f1f1f1;
+}
+#stepFormWrapper .radioButtonsThree label {
+	width: 33.14%;
+}
+#stepFormWrapper .radioButtons label:last-child {
+	border: none;
+}
+#stepFormWrapper .radioButtons label.on {
+	background: #5dcc69;
+	color: #fff;
+}
+#stepFormWrapper .radioButtons input {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 1px;
+}
+#stepFormWrapper fieldset input.autoFillText {
+	background: #f7f7f7;
+	border: 1px solid #f1f1f1;
+	width: 100%;
+	padding: 5px;	
+}
+#stepFormWrapper .radioSlider {
+	position: relative;
+	padding-left: 38px;
+	width: 80%;
+}
+#stepFormWrapper .radioSlider .radioSliderLine {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	bottom: 12px;
+	width: 12px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	background: #ececec;
+}
+#stepFormWrapper .radioSlider input {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 1px;
+}
+#stepFormWrapper .radioSlider label {
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+}
+#stepFormWrapper .radioSlider label strong {
+	font-size: 24px;
+	font-weight: 500;
+	display: block;
+	line-height: 1.2;
+}
+#stepFormWrapper .radioSlider label em {
+	font-size: 10px;
+	line-height: 1.2;
+	color: #4f7a81;
+	display: block;
+}
+#stepFormWrapper .radioSliderMarker {
+	display: none;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	left: -38px;
+    top: 2px;
+	background: #5dcc69;
+	-moz-border-radius:12px;
+	border-radius:12px;
+	-webkit-border-radius:12px;
+}
+#stepFormWrapper .on .radioSliderMarker {
+	display: block;
+}
+#stepFormWrapper .radioSlider label:last-child {
+	margin-bottom: 0;
+}
+#stepButton input,
+#stepButton .button {
+	width: 100%;
+	height: 80px;
+	color: #fff;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+}
+#stepsFooter {
+	background: #f7f7f7;
+}
+#stepsFooter .wrapper {
+	border-top: 2px solid #ddd;
+}
+
+
+
+/***** Step 1 *****/
+#step1Intro {
+	text-align: center;
+}
+#step1PetAllergies label {
+	position: relative;
+	text-align: center;
+	width: 25%;
+	font-size: 16px;
+	float: left;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+#step1PetAllergies input {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+.petAllergy {
+	width: 48px;
+	height: 36px;
+	display: block;
+	margin: 0 auto 5px auto;
+	background: url(../images/sprite-icon-recipe.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+.petAllergyBeef {background-position: 0 -251px;}
+.petAllergyChicken {background-position: 0 -339px;}
+.petAllergyFish {background-position: 0 -47px;}
+.petAllergyLamb {background-position: 0 -146px;}
+.petAllergyTurkey {background-position: 0 5px;}
+.petAllergyGrain {background-position: 0 -98px;}
+.petAllergyEggs {background-position: 0 -296px;}
+.petAllergyDairy {background-position: 0 -201px;}
+
+.cantEat {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: url(../images/sprite-icon-no.png) no-repeat center top;
+    background-size: 42px auto;
+}
+.on .cantEat {
+	display: block;
+}
+#step1PetAllergies label:hover .cantEat {
+	display: block;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	-khtml-opacity: 0.2;
+	opacity: 0.2;
+}
+#step1PetAllergies label.on:hover .cantEat {
+	filter:alpha(opacity=100);
+	-moz-opacity:01;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+#step1PetBreedCrossBreed,
+#step1PetBreedUnknown {
+	display: none;
+}
+
+
+
+
+
+/***** Step 2 *****/
+#step2Image {
+	height: 126px;
+	overflow: hidden;
+}
+#step2Image img {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	display: block;
+	height: auto;
+}
+fieldset#step2Text {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	border-bottom: 0;
+}
+#step2Text h2 {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	color: #4f7a81;
+	margin-bottom: 16px;
+}
+.tickList {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	color: #4f7a81;
+}
+.tickList li {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.tickList li i {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 1px;
+	background: url(../images/sprite-icon-tickcross.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+fieldset#step2recipes {
+	text-align: center;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+#step2recipes h2 {
+	font-size: 16px;
+}
+#step2recipes p {
+	width: 70%;
+	margin: 0 auto 1.5em auto;
+	color: #4f7a81;
+	font-size: 12px;
+}
+#recipeSelect {
+	overflow: hidden;
+	margin: 0 -2%;
+}
+#recipeSelect label {
+	float: left;
+	width: 25%;
+	font-size: 10px;
+}
+#recipeSelect .petAllergyLabel {
+	text-align: center;
+	display: block;
+	line-height: 1.2;
+	color: #4f7a81;
+}
+.recipeSelectItem {
+	display: block;
+	width: 62px;
+	height: 62px;
+	border: solid 2px #4f7a81;
+	-moz-border-radius:33px;
+	border-radius:33px;
+	-webkit-border-radius:33px;
+	background: #fff url(../images/sprite-icon-recipe.png) no-repeat 0 0;
+	background-size: 100% auto;
+	margin: 0 auto 10px auto;
+}
+.recipeSelectBeef {background-position: 0 -836px;}
+.recipeSelectChicken {background-position: 0 -951px;}
+.recipeSelectFish {background-position: 2px -570px;}
+.recipeSelectLamb {background-position: 6px -585px;background-size: 84% auto;}
+.recipeSelectTurkey {background-position: 0 -502px;}
+.recipeSelectGrain {background-position: 0 -636px;}
+.recipeSelectEggs {background-position: 0 -894px;}
+.recipeSelectDairy {background-position: 0 -768px;}
+
+.on .recipeSelectItem {
+	background-color: #5dcc69;
+	border-color: #5dcc69;
+}
+.on .recipeSelectBeef,.checked .recipeSelectBeef {background-position: 0 -1340px;}
+.on .recipeSelectChicken,.checked .recipeSelectChicken {background-position: 0 -1455px;}
+.on .recipeSelectFish,.checked .recipeSelectFish {background-position: 2px -1070px;}
+.on .recipeSelectLamb,.checked .recipeSelectLamb {background-position: 6px -1008px;}
+.on .recipeSelectTurkey,.checked .recipeSelectTurkey {background-position: 0 -1006px}
+.on .recipeSelectGrain,.checked .recipeSelectGrain {background-position: 0 -1136px;}
+.on .recipeSelectEggs,.checked .recipeSelectEggs {background-position: 0 -1394px;}
+.on .recipeSelectDairy,.checked .recipeSelectDairy {background-position: 0 -1268px;}
+
+.checked .recipeSelectItem {
+	background-color: #319c3d;
+	border-color: #319c3d;
+}
+.button.on {
+	background-color: #319c3d;
+}
+#recipeDescriptions div {
+	display: none;
+}
+#recipeDescriptions #recipeDescBeef {
+	display: block;
+}
+#recipeDescriptions {
+	 padding: 20px 0;
+    text-align: left;
+    border-bottom: none;
+}
+#recipeDescriptions h3 {
+	font-size: 18px;
+	margin: 0;
+}
+#recipeDescriptions p {
+	width: 100%;
+}
+#recipeDescriptions input {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+#recipeDescriptions label {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+#step2cost {
+	text-align: center;
+}
+#step2cost strong {
+	display:block;
+	font-size: 30px;
+	font-weight: 500;
+}
+#step2cost em {
+	display:block;
+	font-size: 12px;
+}
+
+
+
+
+/***** Step 3 *****/
+#step3Content {
+	margin: 0 -5.5%;
+}
+#step3Text {
+	background: #fff url(../images/placeholder-suppliment-white.jpg) no-repeat left top;
+	background-size: 146px auto;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	padding: 160px 5% 15px 5%;
+	position: relative;
+}
+.recommendedSticker {
+	position: absolute;
+    width: 100px;
+    height: 102px;
+    top: 35px;
+    right: 20%;
+    background: url(../images/sprite-icon-stickers.png) no-repeat left top;
+    background-size: 100px auto;
+}
+#step3Text ul {
+	text-align: center;
+}
+#step3Text .button {
+	text-transform: none;
+}
+#step3Button {
+	text-align: center;
+}
+#step3SkipButton {
+	text-align: center;
+	padding: 15px 0;
+}
+.buttonOutline {
+	border: solid 3px #7baeb7;
+    background: none;
+    color: #7baeb7;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 0 27px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.buttonOutline:hover {
+	background: #7baeb7;
+	color: #f7f7f7;
+}
+
+
+
+/***** Step Checkout *****/
+#checkoutNav {
+	border-bottom: solid 1px #e6e6e6;
+	margin: -21px -5.5% 0 -5.5%;
+	height: 47px;
+}
+#checkoutNav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#checkoutNav li {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.75;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 46px;
+	height: 45px;
+	padding: 0 5px;
+}
+#checkoutNav li.on {
+	border-bottom: solid 2px #073c46;
+}
+.step4CheckoutPanel {
+	background: #fff;
+	padding: 30px 5.5% 0 5.5%;
+	margin: 0 -5.5%;
+}
+#step4Account,
+#step4Address,
+#step4Payment {
+	display: none;
+}
+.step4CheckoutPanel h1 {
+	font-weight: 500;
+}
+.orderItem {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.orderItemImg {
+	float: left;
+	width: 30%;
+	margin: 0 20px 0 0;
+}
+.orderItemImg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.orderItemDesc strong {
+	font-size: 16px;
+	font-weight: 500;
+	color: #012930;
+	display: block;
+}
+.orderItemDesc em {
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.56;
+	color: #4f7a81;
+	display: block;
+	margin-bottom: 6px;
+}
+.orderItem .button {
+	background-color: #4f7a81;
+	font-size: 12px;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 12px;
+}
+#discountCode {
+	margin-bottom :20px;
+}
+#discountCode h2 {
+	display: none;
+}
+#discountCode input[type=text] {
+	background-color: #f7f7f7;
+	border: solid 1px #ececec;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	width: 100%;
+	margin-bottom: 7px;
+}
+#discountCode input[type=submit] {
+	background: #fff;
+	border: solid 2px #5dcc69;
+	color: #5dcc69;
+	width: 100%;
+}
+#shippingTotal {
+	background: #f2f2f2;
+	margin: 0 -5.5%;
+	padding: 20px 5.5%;
+	text-align: center;
+}
+#shippingTotal h2 {
+	font-size: 16px;
+	font-weight: 500;
+}
+#totalPrice {
+	border-top: solid 1px #d6d6d6;
+	padding: 20px 8px 0 8px;
+	font-weight: 500;
+	color: #012930;
+	overflow: hidden;
+	text-align: right;
+}
+#totalPriceLabel {
+	font-size: 24px;
+	float: left;
+	width: 120px;
+	text-align: left;
+}
+#totalPricePrice {
+	font-size: 20px;
+}
+#totalPriceTerm {
+	font-size: 16px;
+	color: #4f7a81;;
+	font-weight: 400;
+}
+#step4Review #stepButton,
+#step4Account #stepButton,
+#step4Address #stepButton,
+#step4Payment #stepButton {
+	margin: 0 -5.5%;	
+}
+#step4Review #stepButton .button,
+#step4Account #stepButton .button,
+#step4Address #stepButton .button,
+#step4Payment #stepButton .button {
+	font-size: 24px;
+	font-weight: 500;
+	padding: 0;
+    line-height: 80px;
+}
+.step4CheckoutPanel li {
+	margin-bottom: 15px;
+}
+.step4CheckoutPanel li:last-child {
+	margin-bottom: 20px;
+}
+.step4CheckoutPanel input {
+	border: solid 1px #ececec;
+	width: 100%;
+}
+.step4CheckoutPanel .checkBox input {
+	width: auto;
+}
+#billingAddressWrapper {
+	display: none;
+}
+li.checkBox {
+	line-height: 26px;
+}
+.checkBox i {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	border: solid 1px #ececec;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	float: left;
+	margin: 0 4px 0 0;
+	background-color: #fff;
+}
+.checkBox i.on {
+	background: #fff url(../images/icon-checkbox-tick.png) no-repeat center center;
+	background-size: 90% auto;
+}
+.checkBox input {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: auto;
+}
+#step4Payment #creditCard {
+	margin-left: 0;
+} 
+#creditCard {
+	max-width: 572px;
+	border-radius: 15px;
+	border: solid 1px #ececec;
+	background: #fff;
+	padding: 22px;
+	font-family: 'Roboto Mono', monospace;
+	-moz-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.1);
+	margin: 0 auto 24px auto;
+}
+#creditCardIcons {
+	width: 84px;
+	margin-bottom: 28px;
+}
+#creditCard ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#creditCardIcons img {
+	width: 100%;
+	height: auto;
+}
+#creditCardNumber {
+	margin-bottom: 20px;
+}
+#creditCardNumber,
+#creditCardName {
+	position: relative;
+}
+#creditCardNumber label,
+#creditCardName label {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #d3d3d3;
+	position: absolute;
+	top: 50%;
+    left: 0px; 
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+}
+#creditCardNumber input:focus + label,
+#creditCardName input:focus + label,
+#creditCardNumber input.has-value + label,
+#creditCardName input.has-value + label {
+	font-size: 10px;
+	color: #4f7a81;
+	top: 0px;
+}
+#creditCardNumber input,
+#creditCardName input,
+#creditCardCVC input {
+	font-family: 'Roboto Mono', monospace;
+	border: none;
+	border-bottom: solid 1px #d4d4d4;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	padding: 0;
+	letter-spacing: 2px;
+	height: 40px;
+	text-transform: uppercase;
+}
+#creditCardName {
+	margin-bottom: 28px;
+}
+#creditCardName input::placeholder {
+	color: #d3d3d3;
+}
+/*#creditCardName input::-webkit-input-placeholder {color: #d3d3d3;}
+#creditCardName input::-moz-placeholder {color: #d3d3d3;}
+#creditCardName input:-ms-input-placeholder {color: #d3d3d3;}
+#creditCardName input:-moz-placeholder {color: #d3d3d3;}*/
+
+#creditCardExpiry {
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+#creditCardExpiry label {
+	margin-right: 30px;
+	font-size: 16px;
+	color: #4f7a81;
+}
+#creditCardExpiry select {
+	background: url(../images/icon-select-creditcard.png) no-repeat right center;
+	background-size: 12px auto;
+	border: none;
+	color: #4f7a81;
+	font-family: 'Roboto Mono', monospace;
+	-webkit-appearance: none;
+	padding: 3px 17px 3px 0;
+}
+#creditCardCVC {
+	margin-bottom: 0px;
+}
+#creditCardCVC label {
+	float: left;
+	width: 80px;
+	font-size: 16px;
+	margin: 3px 0 0 0;
+	color: #4f7a81;
+}
+#creditCardCVC label .info {
+	width: 20px;
+	height: 20px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	background: #5d99cc;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+#creditCardCVC input {
+	width: 80px;
+	height: 30px;
+	padding: 0;
+}
+.validStatus {
+	display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 9px;
+    line-height: 22px;
+    background: #fd7779;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    float: right;
+    width: auto;
+    margin: 0 0 3px 0;
+}
+.validStatusGood {
+	background: #5dcc69;
+}
+
+
+
+
+/***** Step 5 *****/
+#step5Title {
+	text-align: center;
+}
+#step5Content {
+	margin: 0 -5.5%;
+	padding: 20px 5.5%;
+	background: #fff;
+	border-top: solid 1px #d4d4d4;
+}
+#step5Content h2 {
+	font-size: 18px;
+}
+#referLink {
+	margin-bottom :26px;
+}
+#referLink h3 {
+	font-size: 12px;
+	color: #4f7a81;
+}
+#referLink input[type=text] {
+	height: 45px;
+	background-color: #f8f8f8;
+	border: solid 1px #ececec;
+	width: 207px;
+	float: left;
+	font-size: 14px;
+}
+#referLink .button {
+	height: 45px;
+	line-height: 45px;
+	width: 80px;
+	font-size: 14px;
+	padding: 0;
+	border: solid 1px #359d41;
+}
+#referShare h3 {
+	font-size: 12px;
+	color: #4f7a81;
+}
+#referShare ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+#referShare li {
+	float: left;
+	width: 31px;
+	height: 31px;
+	margin-right: 16px;
+}
+#referShare li a {
+	display: block;
+	height: 31px;
+	background: url(../images/sprite-icon-share.png) no-repeat 0 0;
+	background-size: 100% auto;
+}
+#referShare li.facebook a {
+	background-position: 0 -69px;
+}
+#referShare li.email a {
+	background-position: 0 -35px;
+}
+#step5Review {
+	margin: 0 -5.5%;
+	padding: 20px 5.5%;
+	background: #fff;
+}
+
+
+
+
+/***** Dashboard *****/
+#dashboard {
+    background: #f7f7f7;
+    margin: -44px 0 0 0;
+    padding: 44px 0 0 0;
+}
+#dashboardContent {
+	background: #fff;
+	margin: 0 -5.5%;
+	padding: 36px 5.5%;
+	border-top: solid 1px #d8d8d8;
+}
+#dashboardTitle {
+	text-align: center;
+}
+#dashboardTitle h1 {
+	margin-bottom: 25px;
+}
+.dashboardSub {
+	border: solid 1px #eeeeee;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	padding: 20px;
+	margin: 0 0 18px 0;
+}
+.dashSubImg {
+	float:left;
+	width: 80px;
+	margin: 0 20px 0 0;
+}
+.dashSubImg img {
+	width: 100%;
+	height: auto;
+}
+.dashSubDesc {
+	margin-left: 100px;
+}
+.dashboardSub h2 {
+	font-size: 16px;
+	margin: 0 0 6px 0;
+}
+.dashboardSub p {
+	line-height: 1.2;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+.dashboardSub p strong {
+	color: #012930;
+	display: block;
+	padding: 6px 0;
+	font-size: 14px;
+}
+.dashSubButtons {
+	overflow: hidden;
+}
+.dashSubButtons .button {
+	font-size: 12px;
+	padding: 0 9px;
+	height: 24px;
+	line-height: 24px;
+}
+.dashSubButtons .buttonPause {
+	background: #edd056;
+}
+.dashSubButtons .buttonEdit {
+	background: #4f7a81;
+}
+#dashboardAddSub a {
+	 background-color: #f8f8f8;
+	 border: solid 2px #dbdbdb;
+	 -moz-border-radius:3px;
+	 border-radius:3px;
+	 -webkit-border-radius:3px;
+	 display: block;
+	 text-align: center;
+	 line-height: 72px;
+	 text-decoration: none;
+	 font-size: 18px;
+	 font-weight: 500;
+}
+#dashboardAddSub a i {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	line-height: 72px;
+    vertical-align: middle;
+    background: url(../images/icon-plus.png) no-repeat center center;
+    background-size: 100% auto;
+    margin-right: 10px;
+}
+#dashboardFooter li {
+	display: block;
+	margin-bottom: 	18px;
+}
+#dashboardFooter li a,
+#dashboardFooter li a:visited {
+	color: #7baeb7;
+	font-size: 16px;
+	text-decoration: underline;
+}
+li#dashboardFooterCancel a,
+li#dashboardFooterCancel a:visited {
+	background: #ff7676;
+	color: #fff;
+	text-decoration: none;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	line-height: 36px;
+	display: inline-block;
+	padding: 0 18px;
+}
+#modalShipping ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#modalShipping h1 {
+	color: #fff;
+	text-align: center;
+}
+#shippingModalButton {
+	text-align: center;
+}
+#shippingModalButton .button {
+	width: 60%;
+	max-width: 200px;
+	margin: 35px auto 25px auto;
+    display: block;
+}
+
+
+
+
+
+@media screen and (min-width: 425px) {
+	#step2Image {
+	    height: 186px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	#notAvailable {
+		min-height: 750px;
+	}
+	#step2Image {
+	    height: 186px;
+	}
+	#stepFormWrapper .radioButtonsThree label {
+		width: 33.18%;
+	}
+}
+@media screen and (min-width: 600px) {
+    #howSteps {
+	    background-size: 100% auto;
+    }
+}
+
+
+
+
+
+/* 15.VENDOR-SPECIFIC */
+
+::-webkit-selection { 
+background: rgb(23,119,175); 
+color: rgb(250,250,250); 
+text-shadow: none; }
+
+::-moz-selection { 
+background: rgb(23,119,175); 
+color: rgb(250,250,250); 
+text-shadow: none; }
+
+::selection { 
+background: rgb(23,119,175); 
+color: rgb(250,250,250); 
+text-shadow: none; }
+
+
+div,
+input,
+textarea  { 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box; }
+
+
+/* Sources: 
+http://meyerweb.com/eric/tools/css/reset
+http://people.opera.com/patrickl/experiments/keyboard/test
+http://gist.github.com/413930
+http://pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap
+http://sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars
+http://tjkdesign.com/ez-css/css/base.css
+http://viget.com/inspire/styling-the-button-element-in-internet-explorer
+http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing
+http://html5doctor.com/html-5-reset-stylesheet/
+http://praegnanz.de/weblog/htmlcssjs-kickstart/
+http://camendesign.com/design/
+http://yui.yahooapis.com/2.8.1/build/base/base.css
+http://webaim.org/techniques/css/invisiblecontent/
+http://drupal.org/node/897638
+*/
