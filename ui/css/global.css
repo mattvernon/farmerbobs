@@ -54,7 +54,9 @@ body#home {
 	background-color: #f1f1ee;
 }
 
-
+body#why-us header {
+	margin-bottom: 0;
+}
 
 
 /* 2.HEADINGS */
