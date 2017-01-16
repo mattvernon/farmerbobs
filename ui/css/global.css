@@ -934,12 +934,11 @@ ul#benefitList {
 	width: 60%;
 }
 #howSteps {
-	background: url(../images/wood-bg-mob.jpg) no-repeat 0 0;
+	background-color: #073C46;
 	background-size: auto 100%;
 	padding: 0 0 54px 0;
 	text-align: center;
 	color: #fff;
-	margin-bottom: 40px;
 }
 #howSteps ol {
 	list-style-type: none;
@@ -992,13 +991,29 @@ ul#benefitList {
 }
 #howFriend {
 	text-align: center;
-	padding-bottom: 250px;
-	background: url(../images/placeholder-how-dog2-small.jpg) no-repeat center bottom;
+
+	padding-top: 54px;
+	padding-bottom: 0;
+	background-color: #C8CBDC;
 	background-size: auto 250px;
 }
-
-
-
+#howFriend {
+	font-size: 0;
+}
+#howFriend .half {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+#howFriend h2 {
+	color: #ffffff;
+}
+#howFriend p {
+	color: #4F7A81;
+}
+#howFriend #join {
+	margin-bottom: 0;
+}
 
 /***** FAQs *****/
 #faqsIntro {

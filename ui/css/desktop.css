@@ -400,11 +400,6 @@ nav a:hover {
 }
 #howSteps {
 	margin-bottom: 0;
-	background: url(../images/wood-bg.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	padding: 50px 0 90px 0;
 }
 .stepArrow {
@@ -414,12 +409,11 @@ nav a:hover {
 #howFriend {
 	padding: 100px 0 70px 0;
 	background-size: 382px auto;
-	max-width: 1180px;
 	margin: 0 auto;
 }
 #howFriend h2,
 #howFriend p {
-	width: 45%;
+	width: 80%;
 }
 #howFriend p {
 	font-size: 18px;
