@@ -872,10 +872,11 @@ fieldset#step2recipes {
  
 /***** Step 3 *****/
 #step3Text {
-	background: #fff url(../images/placeholder-suppliment-white.jpg) no-repeat left center;
-	background-size: 46% auto;
+	max-width: 700px;
 	border: 1px solid #dedede;
-	padding: 80px 40px 86px 47%;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
 	-moz-border-radius:6px;
 	border-radius:6px;
@@ -885,18 +886,13 @@ fieldset#step2recipes {
 	font-size: 42px;
 }
 #step3Text .tickList {
-	width: 300px;
 	margin-bottom: 30px;
 }
-.recommendedSticker {
-    background-position: left top;
-    margin-left: 304px;
-    width: 150px;
-    height: 130px;
-    background-size: 128px;
+#step3SkipButton {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
 
 
 /***** Checkout *****/

@@ -817,7 +817,7 @@ fieldset#step2Text {
 	font-size: 30px;
 }
 .tickList li {
-    font-size: 16px;
+    font-size: 18px;
 }
 fieldset#step2recipes {
 	padding-bottom: 0;
@@ -852,24 +852,22 @@ fieldset#step2recipes {
 	margin: 0;
 }
 #step3Text {
-	background: #fff url(../images/placeholder-suppliment-white.jpg) no-repeat left center;
-	background-size: 46% auto;
 	border: 1px solid #dedede;
-	padding: 80px 40px 80px 47%;
+	padding: 40px 40px;
 	position: relative;
 	-moz-border-radius:6px;
 	border-radius:6px;
 	-webkit-border-radius:6px;
 }
-#step3Text .tickList {
-	text-align: left;
-	float: left;
-	width: 230px;
+#step3Text ul::after {
+	content: '';
+
+	position: absolute;
+    width: 100px;
+    height: 102px;
 }
-.recommendedSticker {
-	position: static;
-	background-position: right top;
-	width: 100%;
+#step3Text ul li {
+	font-size: 18px;
 }
 #step3Button {
 	text-align: left;

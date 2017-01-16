@@ -1846,24 +1846,30 @@ fieldset#step2recipes {
 	margin: 0 -5.5%;
 }
 #step3Text {
-	background: #fff url(../images/placeholder-suppliment-white.jpg) no-repeat left top;
-	background-size: 146px auto;
+	background-color: #ffffff;
 	border-top: 1px solid #dedede;
 	border-bottom: 1px solid #dedede;
-	padding: 160px 5% 15px 5%;
+	padding: 25px 5%;
 	position: relative;
 }
-.recommendedSticker {
+#step3Text ul {
+	position: relative;
+
+	width: 100%;
+
+	text-align: left;
+}
+#step3Text ul::after {
+	content: '';
+
 	position: absolute;
     width: 100px;
     height: 102px;
-    top: 35px;
-    right: 20%;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
     background: url(../images/sprite-icon-stickers.png) no-repeat left top;
     background-size: 100px auto;
-}
-#step3Text ul {
-	text-align: center;
 }
 #step3Text .button {
 	text-transform: none;
