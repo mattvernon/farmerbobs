@@ -424,27 +424,12 @@ nav a:hover {
 
 
 /***** FAQs *****/
-.faqsBg {
-	background: url(../images/wood-bg.jpg) repeat-y 0 0;
-	background-size: 100% auto;
-}
-.faqsBg header,
-.faqsBg #faqsIntro {
-	background: #fff;
-}
 #faqsIntro {
 	margin-top: -46px;
 	padding-top: 46px;
 }
-#faqs {
-	background: none;
-}
 #emailForm {
-	max-width: 1180px;
 	margin: 0 auto 55px auto;
-	-moz-border-radius:3px;
-	border-radius:3px;
-	-webkit-border-radius:3px;
 	padding: 0;
 }
 #emailForm .wrapper {
@@ -454,8 +439,8 @@ nav a:hover {
 #emailForm h2 {
 	font-size: 42px;
 }
-#emailForm input[type=text], 
-#emailForm input[type=email], 
+#emailForm input[type=text],
+#emailForm input[type=email],
 #emailForm input[type=tel] {
 	height: 72px;
 	padding: 0 30px;

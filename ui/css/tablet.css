@@ -599,13 +599,23 @@ ul#benefitList {
 }
 
 /***** FAQs *****/
+#faqsIntro .half {
+	width: 50%;
+}
+#faqsIntro .half:first-child {
+	/*margin-left: 50%;*/
+}
+#faqsIntro .half:last-child {
+	margin-left: -100%;
+}
 #faqsIntro h1 {
+	width: 50%;
+
+	text-align: left;
 	font-size: 42px;
 }
 #faqs {
 	padding: 60px 0;
-	background: url(../images/wood-bg.jpg) repeat-y 0 0;
-	background-size: 100% auto;
 }
 .question {
 	max-width: 780px;
@@ -616,7 +626,7 @@ ul#benefitList {
 	padding: 20px 24px;
 }
 .answer {
-	padding: 0 24px;
+	padding: 15px 24px 0;
 }
 .answer p {
 	font-size: 16px;

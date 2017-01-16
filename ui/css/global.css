@@ -1019,32 +1019,65 @@ ul#benefitList {
 #faqsIntro {
 	text-align: center;
 	padding: 0px 0 20px 0;
+
+	font-size: 0;
+}
+#faqsIntro .half {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+
+	text-align: center;
+}
+#faqsIntro .half img {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #faqs {
 	padding: 12px 0;
-	background: url(../images/wood-bg-mob.jpg) repeat-y 0 0;
-	background-size: 100% auto;
+	background-color: #CDEFCE;
 }
 .question {
 	background-color: #ffffff;
 	border: solid 2px #d4d4d4;
-	-moz-border-radius:4px;
-	border-radius:4px;
-	-webkit-border-radius:4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
 	margin: 0 0 12px 0;
+	overflow: hidden;
+
+	transition: background-color 150ms ease-out;
+}
+.question:hover {
+	background-color: #F1F1F1;
 }
 .question:last-child {
 	margin-bottom: 0;
 }
 .question h2 {
+	position: relative;
 	font-size: 14px;
 	padding: 17px;
 	margin: 0;
 	cursor: pointer;
 }
+.question h2::after {
+	content: '';
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -2px;
+
+	width: 100%;
+	height: 2px;
+
+	background-color: #d4d4d4;
+}
 .answer {
 	display: none;
-	padding: 0 17px;
+	padding: 10px 17px 0;
 }
 
 
@@ -1052,10 +1085,11 @@ ul#benefitList {
 
 /***** Email Form *****/
 #emailForm {
-	background-color: #f6f4f4;
+	background-color: #073C46;
 	padding: 40px 0 20px 0;
 }
 #emailForm h2 {
+	color: #ffffff;
 	text-align: center;
 }
 #emailForm p {
@@ -1072,12 +1106,20 @@ ul#benefitList {
 #emailForm li:last-child {
 	margin-bottom: 0;
 }
-#emailForm input,
+#emailForm label {
+	display: block;
+	margin-bottom: 5px;
+
+	color: #ffffff;
+}
+#emailForm input[type='text'],
+#emailForm input[type='email'],
 #emailForm textarea {
 	width: 100%;
 	border: solid 1px #ececec;
 }
 #emailForm input[type=submit] {
+	width: 100%;
 	max-width: 285px;
 	margin: 0 auto;
 	display: block;
