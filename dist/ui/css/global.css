@@ -1439,9 +1439,7 @@ footer {
 }
 #stepFormWrapper {
 	background: #fff;
-	border-top: 1px solid #d4d4d4;
-	border-bottom: 1px solid #d4d4d4;
-	margin: 0 -5.5%;	
+	margin: 0 -5.5%;
 }
 #stepFormWrapper fieldset {
 	border-bottom: 1px solid #d4d4d4;
@@ -1737,96 +1735,95 @@ fieldset#step2recipes {
 }
 #step2recipes p {
 	width: 70%;
-	margin: 0 auto 1.5em auto;
+	margin: 0 auto 30px auto;
 	color: #4f7a81;
 	font-size: 12px;
 }
 #recipeSelect {
-	overflow: hidden;
 	margin: 0 -2%;
-}
-#recipeSelect label {
-	float: left;
-	width: 25%;
-	font-size: 10px;
-}
-#recipeSelect .petAllergyLabel {
+
+	font-size: 0;
 	text-align: center;
-	display: block;
-	line-height: 1.2;
-	color: #4f7a81;
 }
-.recipeSelectItem {
-	display: block;
-	width: 62px;
-	height: 62px;
-	border: solid 2px #4f7a81;
-	-moz-border-radius:33px;
-	border-radius:33px;
-	-webkit-border-radius:33px;
-	background: #fff url(../images/sprite-icon-recipe.png) no-repeat 0 0;
-	background-size: 100% auto;
-	margin: 0 auto 10px auto;
-}
-.recipeSelectBeef {background-position: 0 -836px;}
-.recipeSelectChicken {background-position: 0 -951px;}
-.recipeSelectFish {background-position: 2px -570px;}
-.recipeSelectLamb {background-position: 6px -585px;background-size: 84% auto;}
-.recipeSelectTurkey {background-position: 0 -502px;}
-.recipeSelectGrain {background-position: 0 -636px;}
-.recipeSelectEggs {background-position: 0 -894px;}
-.recipeSelectDairy {background-position: 0 -768px;}
+#recipeSelect .recipe-item {
+	position: relative;
 
-.on .recipeSelectItem {
-	background-color: #5dcc69;
-	border-color: #5dcc69;
-}
-.on .recipeSelectBeef,.checked .recipeSelectBeef {background-position: 0 -1340px;}
-.on .recipeSelectChicken,.checked .recipeSelectChicken {background-position: 0 -1455px;}
-.on .recipeSelectFish,.checked .recipeSelectFish {background-position: 2px -1070px;}
-.on .recipeSelectLamb,.checked .recipeSelectLamb {background-position: 6px -1008px;}
-.on .recipeSelectTurkey,.checked .recipeSelectTurkey {background-position: 0 -1006px}
-.on .recipeSelectGrain,.checked .recipeSelectGrain {background-position: 0 -1136px;}
-.on .recipeSelectEggs,.checked .recipeSelectEggs {background-position: 0 -1394px;}
-.on .recipeSelectDairy,.checked .recipeSelectDairy {background-position: 0 -1268px;}
+	display: inline-block;
+	width: 70%;
+	padding-bottom: 30px;
+	border: 1px solid #E1E1E1;
+	border-radius: 6px;
+	margin-bottom: 30px;
+	overflow: hidden;
 
-.checked .recipeSelectItem {
-	background-color: #319c3d;
-	border-color: #319c3d;
+	box-shadow: 0 2px 30px rgba(0,0,0,0.0);
+
+	cursor: pointer;
+
+	transition: box-shadow 250ms ease-out,
+				border 5ms linear;
+}
+#recipeSelect .recipe-item:hover {
+	box-shadow: 0 2px 40px rgba(0,0,0,0.2);
+}
+#recipeSelect .recipe-item.-selected {
+	border: 2px solid #5DCC69;
+
+	box-shadow: 0 2px 40px rgba(0,0,0,0.2);
+}
+
+#recipeSelect .recipe-item::after {
+	content: '';
+
+	position: absolute;
+	top: 20px;
+	right: 15px;
+
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	border-radius: 100%;
+
+	background-color: #5DCC69;
+	background-image: url('../images/check-mark.png');
+	background-size: 55% auto;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
+	opacity: 0;
+
+	transition: opacity 50ms linear;
+}
+#recipeSelect .recipe-item.-selected::after {
+	opacity: 1;
+}
+#recipeSelect .recipe-item img {
+	width: 100%;
+}
+#recipeSelect .recipe-item .name {
+	display: inline-block;
+	width: 75%;
+	max-width: 200px;
+
+	font-family: 'Rubik', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #4F7A81;
+
+	opacity: 1;
+
+	transition: opacity 150ms ease-out;
+}
+#recipeSelect .recipe-item .name:hover {
+	opacity: 0.8;
 }
 .button.on {
 	background-color: #319c3d;
 }
-#recipeDescriptions div {
-	display: none;
-}
-#recipeDescriptions #recipeDescBeef {
-	display: block;
-}
-#recipeDescriptions {
-	 padding: 20px 0;
-    text-align: left;
-    border-bottom: none;
-}
-#recipeDescriptions h3 {
-	font-size: 18px;
-	margin: 0;
-}
-#recipeDescriptions p {
-	width: 100%;
-}
-#recipeDescriptions input {
-	position: absolute;
-	left: -9999px;
-	top: -9999px;
-}
-#recipeDescriptions label {
-	height: 40px;
-	line-height: 40px;
-	font-size: 16px;
-}
-#step2cost {
+fieldset#step2cost {
 	text-align: center;
+	border-bottom: none;
 }
 #step2cost strong {
 	display:block;
@@ -1836,6 +1833,50 @@ fieldset#step2recipes {
 #step2cost em {
 	display:block;
 	font-size: 12px;
+}
+#step2Content #stepButton {
+	text-align: center;
+}
+
+#step2Content #stepButton input {
+	margin-bottom: 20px;
+}
+
+#step2Content #stepButton #add-food {
+	position: relative;
+
+	display: inline-block;
+	padding: 15px 15px 15px 40px;
+	border: 3px solid #7BAEB7;
+	border-radius: 4px;
+
+	font-weight: 700;
+	text-decoration: none;
+	color: #7BAEB7;
+
+	background-color: transparent;
+
+	transition: background-color 150ms ease-out;
+}
+
+#step2Content #stepButton #add-food:hover {
+	background-color: rgba(121,174,184,0.1);
+}
+
+#step2Content #stepButton #add-food::before {
+	content: '';
+
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+
+	background-image: url('../images/plus-sign.png');
+	background-size: 16px 16px;
 }
 
 
@@ -2338,18 +2379,23 @@ li.checkBox {
 	-webkit-border-radius:3px;
 	padding: 20px;
 	margin: 0 0 18px 0;
+
+	font-size: 0;
 }
 .dashSubImg {
-	float:left;
-	width: 80px;
-	margin: 0 20px 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	width: 47%;
+	margin-right: 3%;
 }
 .dashSubImg img {
 	width: 100%;
 	height: auto;
 }
 .dashSubDesc {
-	margin-left: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
 }
 .dashboardSub h2 {
 	font-size: 16px;

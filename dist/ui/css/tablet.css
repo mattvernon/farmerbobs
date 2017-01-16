@@ -674,10 +674,9 @@ p#notAvailableMessage {
 	overflow: visible;
 }
 #stepFormWrapper {
-	margin: 0 auto;
+	margin: 0 auto 30px;
 	border-left: 1px solid #d4d4d4;
 	border-right: 1px solid #d4d4d4;
-	max-width: 980px;	
 }
 #stepFormWrapper legend {
 	font-size: 18px;
@@ -802,6 +801,11 @@ p#notAvailableMessage {
 
 
 /***** Step 2 *****/
+#stepFormWrapper {
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	border-radius: 6px;
+}
 #step2Image {
 	height: 186px;
 }
@@ -831,20 +835,22 @@ fieldset#step2recipes {
 }
 #recipeSelect {
     margin: 0 auto;
-    max-width: 550px;
 }
-#recipeSelect .petAllergyLabel {
-	font-size: 12px;
-	padding: 0 10px;
+#recipeSelect .recipe-item {
+	width: 48%;
+	margin-right: 4%;
 }
-#recipeDescriptions {
-	max-width: 500px;
-	margin: 0 auto;
+#recipeSelect .recipe-item:last-child {
+	margin-right: 0;
 }
-#recipeDescriptions .tickList {
-	margin-bottom: 0;
+#step2Content #stepButton input {
+	margin-bottom: 20px;
+	border-radius: 4px;
 }
 
+#step2Content #stepButton #add-food {
+	width: 220px;
+}
 
 
 /***** Step 3 *****/
@@ -936,12 +942,8 @@ fieldset#step2recipes {
     margin-left: -15px;
     top: 41px;
 }
-#dashboardSubscriptions div:nth-child(even) {
-	float: right;
-}
 #dashboardSubscriptions div.dashSubDesc {
 	margin: 0;
-	float: left;
 }
 
 

@@ -801,9 +801,10 @@ footer .wrapper {
 #step2Image img {
 	max-width: 100%;
 }
-#stepFormWrapper {
-    margin: 0 auto 0 15%;
-    width: 76%;
+#step2Content #stepFormWrapper {
+	padding: 40px;
+
+	font-size: 0;
 }
 #step2Text h1 {
 	font-size: 24px;
@@ -825,17 +826,23 @@ footer .wrapper {
 	vertical-align: sub;
 }
 fieldset#step2Text {
-	margin-left: 355px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin-left: 0;
+	padding-top: 0;
+
 	text-align: left;
 	padding-bottom: 10px;
 }
 fieldset#step2recipes {
-	margin-left: 355px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin-left: 0;
+
 	text-align: left;
 	padding: 0;
-}
-#step2recipes {
-	position: relative;
 }
 #step2recipes h2 {
 	font-size: 18px;
@@ -846,30 +853,48 @@ fieldset#step2recipes {
 	width: 100%;
 	font-size: 11px;
 }
-#recipeSelect label {
-	width: 80px;
-}
-#recipeSelect .petAllergyLabel {
-	font-size: 10px;
-}
-#recipeDescriptions {
-	margin: 0 0 0 10px;
-}
-#recipeDescriptions p {
-	font-size: 16px;
-	font-weight: 400;
-}
-#recipeDescriptions div {
-	 border-left: 2px solid #ececec;
-    padding-left: 20px;
- }
 #stepsFooter .wrapper {
 	max-width: 1180px;
 }
- 
- 
- 
- 
+#step2Content #stepButton {
+	width: auto;
+
+	text-align: right;
+}
+#step2Content #stepButton .button {
+	width: auto;
+	height: 60px;
+}
+fieldset#step2cost {
+	display: inline-block;
+	width: 50%;
+	padding: 0;
+	margin-top: 60px;
+
+	font-size: 42px;
+	text-align: left;
+}
+
+#step2cost strong {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#step2Content #stepButton input {
+	margin-bottom: 0;
+}
+
+#step2Content #stepButton #add-food {
+	float: left;
+
+	width: auto;
+	height: 54px;
+	padding: 0 15px 0 40px;
+
+	line-height: 54px;
+}
+
+
 /***** Step 3 *****/
 #step3Text {
 	max-width: 700px;
@@ -1011,8 +1036,8 @@ fieldset#step2recipes {
 .orderItemImg {
 	float: none;
 	width: 100%;
-	max-width: 175px;
-	margin: 0 auto 40px auto;
+	max-width: 250px;
+	margin-bottom: 40px;
 }
 #discountCode {
 	margin: 0 -40px;

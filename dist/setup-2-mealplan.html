@@ -67,11 +67,7 @@
 		<div class="wrapper">
 			
 			<div id="step2Content">
-				
-				<div id="step2Image">
-					<img src="ui/images/placeholder_product_trans.png" alt="placeholder_product_trans" width="429" height="509">
-				</div>
-				
+
 				<div id="stepFormWrapper">
 					
 					<fieldset id="step2Text">
@@ -82,84 +78,31 @@
 							<li><i></i> Perfect for Malmutes</li>
 							<li><i></i> Approved by Veterinarians</li>
 						</ul>
+						<fieldset id="step2cost">
+							<strong>Only $6/day</strong>
+							<em>BILLED MONTHLY</em>
+						</fieldset>
 					</fieldset>
 				
 					<fieldset id="step2recipes">
 						<h2>Please select recipes</h2>
 						<p>Click the title to learn more &amp; to select your recipes.</p>
 						<div id="recipeSelect">
-							<label class="on">
-								<i class="recipeSelectItem recipeSelectBeef"></i>
-								<span class="petAllergyLabel">Beef and Vegetables</span>
-							</label>
-							<label>
-								<i class="recipeSelectItem recipeSelectTurkey"></i>
-								<span class="petAllergyLabel">Turkey and Grains</span>
-							</label>
-							<label>
-								<i class="recipeSelectItem recipeSelectChicken"></i>
-								<span class="petAllergyLabel">Chicken and Rice</span>
-							</label>
-							<label>
-								<i class="recipeSelectItem recipeSelectLamb"></i>
-								<span class="petAllergyLabel">Lamb and Vegetables</span>
-							</label>
-						</div>
-						<div id="recipeDescriptions">
-							<div id="recipeDescBeef">
-								<h3>Beef and Vegetables</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</p>
-								<ul class="tickList">
-									<li><i></i> Real meats, vegetables and grains</li>
-									<li><i></i> Perfect for Malmutes</li>
-									<li><i></i> Approved by Veterinarians</li>
-								</ul>
-								<label class="button"><input name="" type="checkbox"> <i>Select</i></label>
+							<div class="recipe-item" data-recipe="beef">
+								<img src="ui/images/recipe-1.jpg" alt="Beef and Vegetables" />
+								<div class="name">Beef and Vegetables</div>
 							</div>
-							<div id="recipeDescTurkey">
-								<h3>Turkey and Grains</h3>
-								<p>Cursus odio vel aliquet. Vestibulum id arcu porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</p>
-								<ul class="tickList">
-									<li><i></i> Real meats, vegetables and grains</li>
-									<li><i></i> Perfect for Malmutes</li>
-									<li><i></i> Approved by Veterinarians</li>
-								</ul>
-								<label class="button"><input name="" type="checkbox"> <i>Select</i></label>
-							</div>
-							<div id="recipeDescChicken">
-								<h3>Chicken and Rice</h3>
-								<p>Adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</p>
-								<ul class="tickList">
-									<li><i></i> Real meats, vegetables and grains</li>
-									<li><i></i> Perfect for Malmutes</li>
-									<li><i></i> Approved by Veterinarians</li>
-								</ul>
-								<label class="button"><input name="" type="checkbox"> <i>Select</i></label>
-							</div>
-							<div id="recipeDescLamb">
-								<h3>Lamb and Vegetables</h3>
-								<p>Consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</p>
-								<ul class="tickList">
-									<li><i></i> Real meats, vegetables and grains</li>
-									<li><i></i> Perfect for Malmutes</li>
-									<li><i></i> Approved by Veterinarians</li>
-								</ul>
-								<label class="button"><input name="" type="checkbox"> <i>Select</i></label>
+							<div class="recipe-item" data-recipe="chicken">
+								<img src="ui/images/recipe-2.jpg" alt="Chicken and Vegetables" />
+								<div class="name">Chicken and Vegetables</div>
 							</div>
 						</div>
 					</fieldset>
-				
-					<fieldset id="step2cost">
-						<strong>Only $6/day</strong>
-						<em>BILLED MONTHLY</em>
-					</fieldset>
-					
-					<div id="stepButton">
-						<input type="submit" value="Continue" class="button">
-					</div>
-				
 				</div>
-				
+				<div id="stepButton">
+					<input type="submit" value="Continue" class="button">
+					<a href="#" id="add-food">Add Food For Another Dog</a>
+				</div>
 			</div>
 			
 		</div>
