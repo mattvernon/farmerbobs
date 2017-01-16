@@ -1,0 +1,14 @@
+{
+  "name": "farmerbobs",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Slava Nossar",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
