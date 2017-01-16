@@ -26,11 +26,11 @@
 
 </head>
  
-<body>
+<body id="our-food">
 <i id="iconMenu" class="closed"></i>
 
 <!-- container start -->
-<div id="container" class="ourfoodBg">
+<div id="container">
 
 	<header>
 		<div class="wrapper">
@@ -49,11 +49,18 @@
 			<li id="navGetStarted"><a href="">Order Now</a></li>
 		</ul>
 	</nav>
+
+	<section id="food-hero">
+		<div class="wrapper">
+			<div class="content">
+				<h1>Natural and Healthy food, Prepared fresh every day.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</p>
+			</div>
+		</div>
+	</section>
 	
 	<section id="naturalFood">
 		<div class="wrapper">
-			<h1>Natural and Healthy food, Prepared fresh every day.</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</p>
 			<ul>
 				<li>
 					<i class="foodTailored"></i>
@@ -73,7 +80,10 @@
 	
 	<section id="benefits">
 		<div class="wrapper">
-			<img src="ui/images/placeholder_product.jpg" alt="placeholder_product" width="429" height="509">
+			<ul id="benefitSubList">
+				<li id="bslHuman"><i></i> Human Grade</li>
+				<li id="bslApproved"><i></i> Approved by Vets</li>
+			</ul>
 			<ul id="benefitList">
 				<li>
 					<i></i>
@@ -96,17 +106,34 @@
 					<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt cursus odio vel aliquet. Vestibulum id arcu porttitor.</em>
 				</li>
 			</ul>
-			<ul id="benefitSubList">
-				<li id="bslHuman"><i></i> Human Grade</li>
-				<li id="bslApproved"><i></i> Approved by Vets</li>
-			</ul>
 		</div>
 	</section>
-	
+
+	<section id="our-recipes">
+		<div class="wrapper">
+			<h2>Our Recipes</h2>
+			<div class="recipe-item">
+				<img src="ui/images/recipe-1.jpg" alt="Beef and Vegetables" />
+				<h3>Beef and Vegetables</h3>
+				<p>Beef, Beef Heart, Beef Kidney, Sweet Potato, Potato, Carrot, Peas, Spinach, Fish Oil, Chia Seeds.</p>
+			</div>
+			<div class="recipe-item">
+				<img src="ui/images/recipe-2.jpg" alt="Chicken and Vegetables" />
+				<h3>Chicken and Vegetables</h3>
+				<p>Chicken, Chicken Liver, Peas, Rice, Spinach, Potato, Fish Oil, Chia Seeds, Carrot, Blueberries.</p>
+			</div>
+		</div>
+	</section>
+
 	<section id="suppliments">
 		<div class="wrapper">
-			<h2>Suppliments</h2>
-			<p>All our food supplement products are made from 100% natural ingredients and are free of artificial additives, preservatives and flavor enhancers. Our richly varied range of supplements consists firstly of our food flakes in different varieties, such as the vegetable and herb flakes or Fruit Mix , the mineral mix , our vegetable and animal oils, fresh sternum bone beef and our dried beetroot.</p>
+			<div class="half">
+				<h2>Suppliments</h2>
+				<span class="extra">for only an extra 40c a day!</span>
+			</div>
+			<div class="half">
+				<p>All our food supplement products are made from 100% natural ingredients and are free of artificial additives, preservatives and flavor enhancers. Our richly varied range of supplements consists firstly of our food flakes in different varieties, such as the vegetable and herb flakes or Fruit Mix , the mineral mix , our vegetable and animal oils, fresh sternum bone beef and our dried beetroot.</p>
+			</div>
 		</div>
 	</section>
 	

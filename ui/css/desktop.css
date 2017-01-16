@@ -305,21 +305,36 @@ nav a:hover {
 
 
 /***** Our Food *****/
-.ourfoodBg {
-	background: url(../images/placeholder-ourfood-large.jpg) no-repeat 0 160px;
-	background-size: 100% auto;
+#food-hero {
+	height: 700px;
+
+	text-align: right;
 }
-#naturalFood {
-	background:none;
-}
-#naturalFood .wrapper {
+#food-hero .wrapper {
 	overflow: visible;
 }
-#naturalFood h1 {
-	font-size: 42px;
+#food-hero .content {
+	width: 50%;
+	margin-right: 10%;
 }
-#naturalFood p {
+#food-hero h1 {
+	display: inline-block;
+	width: 100%;
+
+	font-size: 42px;
+	color: #fff;
+}
+#food-hero p {
+	display: inline-block;
+	width: 100%;
+
 	font-size: 18px;
+	color: #417B82;
+}
+
+/***** Natural Food *****/
+#naturalFood {
+	padding-top: 80px;
 }
 #naturalFood ul {
 	overflow: hidden;
@@ -338,6 +353,9 @@ nav a:hover {
 #benefits img {
 	margin-left: -214px;
 }
+#benefitList {
+	margin-top: 100px;
+}
 #benefitList li em {
 	font-size: 18px;
 	line-height: 1.78;
@@ -355,11 +373,17 @@ nav a:hover {
 }
 #suppliments h2 {
 	font-size: 42px;
+	margin-bottom: 15px;
+}
+#suppliments .extra {
+	width: 50%;
+
+	font-size: 24px;
 }
 #suppliments p {
 	font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: -0.4px;
+	line-height: 1.88;
+	letter-spacing: -0.4px;
 }
 
 

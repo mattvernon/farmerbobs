@@ -54,7 +54,8 @@ body#home {
 	background-color: #f1f1ee;
 }
 
-body#why-us header {
+body#why-us header,
+body#our-food header {
 	margin-bottom: 0;
 }
 
@@ -774,15 +775,31 @@ nav a:active {
 
 
 
-/***** Our Food *****/
-#naturalFood {
-	background: url(../images/placeholder-foodbowl-left.jpg) no-repeat right 50px;
-    background-size: 27% auto;
+/***** Hero *****/
+#food-hero {
+	height: 90vh;
+	background-image: url('../images/our-food-bg.jpg');
+	background-position: 30% 50%;
+    background-size: cover;
     margin-bottom: 50px;
+
+    text-align: right;
 }
-#naturalFood p {
-	width: 60%;
+#food-hero p {
+	width: 100%;
 }
+#food-hero .wrapper {
+	height: 100%;
+	padding: 20px 0;
+}
+#food-hero .content {
+	display: inline-block;
+	width: 50%;
+
+	text-align: center;
+}
+
+/***** Natural Food *****/
 #naturalFood ul {
 	list-style-type: none;
 	margin: 0;
@@ -853,15 +870,49 @@ ul#benefitList {
 #benefitSubList {
 	display: none;
 }
+#our-recipes {
+	padding-bottom: 30px;
+
+	text-align: center;
+}
+#our-recipes h2 {
+	font-size: 24px;
+}
+#our-recipes .wrapper {
+	font-size: 0;
+}
+#our-recipes .recipe-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+#our-recipes .recipe-item img {
+	width: 90%;
+}
+#our-recipes .recipe-item h3 {
+	font-size: 20px;
+}
 #suppliments {
 	padding: 0 0 50px 0;
+	font-size: 0;
 	text-align: center;
 	color: #fff;
-	background: #5dcc69 url(../images/placeholder-suppliment.jpg) no-repeat right top;
-	background-size: 65% auto;
+	background-color: #FFA99D;
+}
+#suppliments .half {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
 }
 #suppliments h2 {
 	color: #fff;
+}
+#suppliments .extra {
+	display: inline-block;
+
+	font-family: "Rubik", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 }
 #suppliments p {
 	margin: 0;

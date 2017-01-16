@@ -88,16 +88,7 @@ $(window).on("resize", function () {
 	} else {
 		$('#suppliments').css('padding-top', '');
 	}
-	
-	// benefits padding
-	if ($(window).width() > 768) {
-		beneF = $('#benefits img').height();
-		beneU = $('#benefitList').height();
-		$('#benefitList').css('margin-bottom', (beneF - beneU));
-	} else {
-		$('#benefitList').css('margin-bottom', '');
-	}
-	
+
 	//how it works intro height
 	if ($(window).width() > 445 && $(window).width() < 1024) {
 		howIntro = $('#howIntro').width();

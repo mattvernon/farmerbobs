@@ -398,21 +398,26 @@ h2 {
 
 
 /***** Our Food *****/
-#naturalFood {
+#food-hero {
 	text-align: center;
-	background: url(../images/placeholder-ourfood-large.jpg) no-repeat center top;
-	background-size: 100% auto;
 	margin-bottom: 25px;
+
+	background-position: 40% 50%;
 }
-#naturalFood h1 {
+#food-hero h1 {
 	font-size: 24px;
 	width: 50%;
 	margin: 0 auto 30px auto;
 	padding: 70px 0 0 0;
 }
-#naturalFood p {
+#food-hero p {
 	width: 40%;
 	margin: 0 auto 100px auto;
+}
+
+/***** Natural Food *****/
+#naturalFood {
+	padding-top: 75px;
 }
 #naturalFood ul {
 	max-width: 630px;
@@ -422,6 +427,7 @@ h2 {
 	float: left;
 	width: 29.3%;
     padding: 0 2%;
+    margin-bottom: 75px;
 }
 #naturalFood li:last-child {
 	margin-top: 12px;
@@ -444,19 +450,17 @@ h2 {
 ul#benefitList {
 	width: 100%;
 	max-width: 100%;
+	margin-top: 75px;
 	overflow: hidden;
 }
 #benefitList li {
 	float: left;
-	width: 25%;
+	width: 23%;
+	margin-right: 2.666666667%;
 	text-align: left;
 }
-#benefitList li:nth-child(2),
-#benefitList li:nth-child(4) {
-	float: right;
-}
-#benefitList li:nth-child(3) {
-	clear: right;
+#benefitList li:last-child {
+	margin-right: 0;
 }
 #benefitList li i {
 	margin: 0 0 15px 0;
@@ -492,8 +496,27 @@ ul#benefitList {
 	background-size: 100% auto;
 }
 
-
-
+/***** Our Recipes *****/
+#our-recipes {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#our-recipes h2 {
+	font-size: 42px;
+}
+#our-recipes .recipe-item {
+	width: 40%;
+}
+#our-recipes .recipe-item h3 {
+	font-size: 24px;
+}
+#our-recipes .recipe-item h3,
+#our-recipes .recipe-item p {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /***** Suppliments *****/
 #suppliments {
@@ -501,9 +524,19 @@ ul#benefitList {
 	text-align: left;
 	background-size: 45% auto;
 }
-#suppliments p {
+#suppliments .half {
 	width: 50%;
 }
+#suppliments h2 {
+	margin-bottom: 5px;
+}
+#suppliments .extra {
+	width: 50%;
+	font-size: 18px;
+}
+#suppliments p {
+}
+
 
 
 
