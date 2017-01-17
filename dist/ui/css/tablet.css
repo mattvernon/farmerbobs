@@ -538,8 +538,26 @@ ul#benefitList {
 }
 
 
+/***** Ingredients Slider *****/
+section#ingredients .slider {
+	width: 80%;
+}
+section#ingredients .slick-list {
+	margin: 0 -10px;
+}
+section#ingredients .slide {
+	margin: 0 10px;
 
-
+	text-align: left;
+}
+section#ingredients .slider .slick-prev {
+	left: -50px;
+	bottom: 70px;
+}
+section#ingredients .slider .slick-next {
+	right: -50px;
+	bottom: 70px;
+}
 
 /***** How it Works *****/
 #howIntro {

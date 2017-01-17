@@ -1,5 +1,34 @@
 
 $(document).ready(function () {
+	if ($('#ingredients .slider').length) {
+		var settings = {
+			autoplay: true,
+			autoplaySpeed: 3000,
+			dots: true,
+			infinite: true,
+			slidesToShow: 4,
+			speed: 500,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						dots: false,
+						slidesToShow: 3,
+					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						dots: false,
+						slidesToShow: 1,
+					}
+				}
+			],
+		};
+
+		$('#ingredients .slider').slick(settings);
+	}
+
 	// Nav and header START
     $("#iconMenu").click(function() {
 		$("nav").toggle();
