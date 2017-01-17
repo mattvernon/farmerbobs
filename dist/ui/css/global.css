@@ -537,6 +537,7 @@ nav a:active {
 /***** Nutrition *****/
 #nutrition {
 	text-align: center;
+	margin-top: 1px;
 	padding: 0 0 30px 0;
 	background: #fff;
 }

@@ -7,6 +7,7 @@ h2 {
 
 /***** Get Started *****/
 #getStarted {
+	padding-top: 30px;
 	text-align: left;
 	position: relative;
 }
@@ -18,7 +19,7 @@ h2 {
 #getStartedImg {
 	position: absolute;
 	left: 5%;
-	top: 0;
+	top: 20px;
 	width: 40%;
 }
 #getStartedImg img {
@@ -66,7 +67,8 @@ h2 {
 #getStarted .sticker {
 	width: 88px;
 	height: 95px;
-	right: 0;
+	right: 5%;
+	bottom: 10%;
 	background-position: 0 -92px;
 }
 

@@ -118,8 +118,13 @@ nav a:hover {
 #getStartedImg {
 	text-align: right;
 }
-
-
+#getStartedImg img {
+	max-width: 500px;
+}
+#getStarted .sticker {
+	right: 10%;
+	bottom: 15%;
+}
 
 
 /***** Comparison *****/
@@ -133,7 +138,7 @@ nav a:hover {
 /***** Nutrition *****/
 #nutrition h2 {
 	font-size: 42px;
-	max-width: 640px;
+	max-width: 400px;
 	margin-bottom: 50px;
 }
 #nutrition img {
@@ -1408,7 +1413,6 @@ li#dashboardFooterShipping {
 	    margin-left: 40px;
     }
     #comparison {
-	    margin-bottom: 70px;
     }
     #comparison h2 {
 	    font-size: 42px;
