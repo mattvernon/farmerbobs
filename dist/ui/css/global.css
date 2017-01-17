@@ -560,14 +560,15 @@ nav a:active {
 	list-style-type: none;
 	overflow: hidden;
 	width: auto;
-	display: inline-block;
+	display: block;
 	white-space: nowrap;
-	padding-right: 52px;
-	margin-bottom: 6px;
+	margin-bottom: 15px;
+	text-align: center;
 }
 #nutrition li strong {
 	color: #012930;
-	display: block;
+	display: inline-block;
+	vertical-align: middle;
 	line-height: 40px;
 	font-size: 12px;
 }
@@ -575,7 +576,8 @@ nav a:active {
 	display: none;
 }
 #nutrition li i {
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 	width: 40px;
 	height: 40px;
 	margin: 0 12px 0 0;

@@ -102,13 +102,13 @@ $(document).ready(function () {
 		}
 		
 		// Home Comparison text alignment
-		if ($(window).width() > 767) {
-			contH = $('#comparison').height();
-			divTheirs = $('#compTheirs').height();
-			divOurs = $('#compOurs').height();		
-			$('#compTheirs').css('padding-top', ((contH - divTheirs) / 2) - 20);
-			$('#compOurs').css('padding-top', ((contH - divTheirs) / 2) - 20);
-		}
+		// if ($(window).width() > 767) {
+		// 	contH = $('#comparison').height();
+		// 	divTheirs = $('#compTheirs').height();
+		// 	divOurs = $('#compOurs').height();		
+		// 	$('#compTheirs').css('padding-top', ((contH - divTheirs) / 2) - 20);
+		// 	$('#compOurs').css('padding-top', ((contH - divTheirs) / 2) - 20);
+		// }
 		
 		// Suppliment padding
 		if ($(window).width() < 768) {

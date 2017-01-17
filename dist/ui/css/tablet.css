@@ -81,13 +81,19 @@ h2 {
 	text-align: left;
 	padding: 60px 0 10px 0;
 	background: #CCEECD;
+
+	font-size: 0;
 }
 #compTheirs {
-	float: left;
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
 	width: 25%
 }
 #compImg {
-	float: left;
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
 	width: 50%;
 	height: 362px;
 	margin: 0;
@@ -95,11 +101,16 @@ h2 {
 	background-size: 100% auto;
 }
 #compOurs {
-	float: left;
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
 	width: 25%;
 }
 #comparison h2 {
 	font-size: 26px;
+}
+#comparison p {
+	font-size: 16px;
 }
 #comparison i {
 	margin: 0 0 20px 0;
@@ -121,6 +132,9 @@ h2 {
 #nutrition {
 	position: relative;
 	padding: 60px 0;
+}
+#nutrition.showDescriptions h2 {
+	max-width: 500px;
 }
 #nutrition ul {
 	width: 100%;
@@ -148,15 +162,15 @@ h2 {
 }
 #nutrition li:nth-child(1),
 #nutrition li:nth-child(4) {
-	top: 120px;
+	top: 150px;
 }
 #nutrition li:nth-child(2),
 #nutrition li:nth-child(5) {
-	top: 192px;
+	top: 222px;
 }
 #nutrition li:nth-child(3),
 #nutrition li:nth-child(6) {
-	top: 262px;
+	top: 292px;
 }
 #nutrition li i {
 	float: right;
@@ -307,7 +321,11 @@ h2 {
 	overflow: visible
 }
 #whyFarmerBobs h1 {
-	position: static;
+	position: relative;
+	top: auto;
+	left: auto;
+	z-index: 2;
+
 	width: 100%;
 	float: left;
 	width: 60%;
@@ -315,17 +333,23 @@ h2 {
 	margin-bottom: 40px;
 }
 #whyFarmerBobs #wfbSet1 img {
-	margin-bottom: 34px;
-    position: static;
-    float: right;
-    width: 40%;
+	z-index: 1;
+	left: auto;
+	right: 10%;
+    width: 50%;
 }
 #whyFarmerBobs #wfbSet1 h2 {
+	position: relative;
+	z-index: 2;
+
 	padding-top: 0;
 	width: 50%;
 }
 #whyFarmerBobs #wfbSet1 p {
+	position: relative;
+	z-index: 2;
 	width: 50%;
+	margin-bottom: 200px;
 }
 #whyFarmerBobs #wfbSet2 {
 	position: relative;

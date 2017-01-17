@@ -142,10 +142,11 @@ nav a:hover {
 	margin-bottom: 50px;
 }
 #nutrition img {
-	max-width: 482px;
+	max-width: 420px;
+	padding-top: 20px;
 }
 #nutrition li:nth-child(1), #nutrition li:nth-child(4) {
-	top: 192px;
+	top: 150px;
 }
 #nutrition li:nth-child(2), #nutrition li:nth-child(5) {
 	top: 331px;
@@ -165,7 +166,8 @@ nav a:hover {
 #nutrition .nutEnergy {background-position: 0 -402px;}
 
 #nutrition li strong {
-	width: 68%;
+	width: 75%;
+	margin-bottom: 10px;
 	line-height: 78px;
 	padding: 0;
 	float: right;
@@ -177,7 +179,6 @@ nav a:hover {
 }
 #nutrition li:nth-child(6) strong {
 	line-height: 1.2;
-	padding-top: 22px;
 }
 
 
@@ -303,7 +304,7 @@ nav a:hover {
 #nutrition.showDescriptions em {
 	display: block;
     text-align: right;
-    width: 71%;
+    width: 76%;
 }
 
 
@@ -1338,7 +1339,7 @@ li#dashboardFooterShipping {
 	    min-height: 620px;
     }
     #nutrition li {
-	    width: 28%;
+	    width: 32%;
     }
     #nutrition li:nth-child(1), #nutrition li:nth-child(2), #nutrition li:nth-child(3) {
 	    left: 0;
@@ -1418,7 +1419,7 @@ li#dashboardFooterShipping {
 	    font-size: 42px;
     }
     #comparison p {
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 1.78;
 		letter-spacing: -0.4px;
     }
