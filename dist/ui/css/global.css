@@ -1080,8 +1080,11 @@ section#ingredients .slick-dots li button:focus:before {
 
 /***** How it Works *****/
 #howIntro {
-	background: url(../images/placeholder-how-dog1.jpg) no-repeat 103% bottom;
+	background-image: url(../images/how-it-works-hero-bg.jpg);
+	background-color: #CDEFCE;
 	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: 103% bottom;
 	padding: 0 0 30px 0;
 }
 #howIntro h1 {

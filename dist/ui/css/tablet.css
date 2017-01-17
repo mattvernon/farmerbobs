@@ -587,7 +587,9 @@ section#ingredients .slider .slick-next {
 
 /***** How it Works *****/
 #howIntro {
-	background-position: left top;
+	padding: 50px 0;
+	background-size: auto 90%;
+	background-position: 0% 50%;
 	text-align: center;
 }
 #howIntro h1 {

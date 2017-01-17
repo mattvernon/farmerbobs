@@ -426,9 +426,10 @@ section#ingredients .slider .slick-next {
 
 /***** How it works *****/
 #howIntro {
-	padding: 65px 0;
+	padding: 125px 0;
 	max-width: 1580px;
 	margin: 0 auto;
+	background-position: 10% 50%;
 }
 #howIntro h1,
 #howIntro p {
