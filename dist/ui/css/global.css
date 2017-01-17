@@ -788,6 +788,9 @@ nav a:active {
 
 	text-align: right;
 }
+#food-hero .desktop-bg {
+	display: none;
+}
 #food-hero p {
 	width: 100%;
 }

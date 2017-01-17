@@ -312,11 +312,29 @@ nav a:hover {
 
 /***** Our Food *****/
 #food-hero {
+	position: relative;
+
 	height: 700px;
+	overflow: hidden;
+
+	background: #ADD8EE;
 
 	text-align: right;
 }
+#food-hero .desktop-bg {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	z-index: 1;
+
+	display: block;
+	width: auto;
+	height: 120%;
+}
 #food-hero .wrapper {
+	position: relative;
+	z-index: 2;
 	overflow: visible;
 }
 #food-hero .content {
