@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 margin: 0;
@@ -20,7 +20,7 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline; }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block; }
 
@@ -34,15 +34,15 @@ html {
 	background: #fff;
 	height: 100%;
 }
-body { 
+body {
 	margin: 0 auto;
 	padding: 0;
 	width: 100% /* 252px */;
 	font: 100%/1.4 "Rubik", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	color: #4f7a81; 
+	color: #4f7a81;
 	background-color: transparent;
-	-webkit-text-size-adjust: 100%; 
+	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	height: 100%;
 	background-color: #fff;
@@ -62,44 +62,44 @@ body#our-food header {
 
 /* 2.HEADINGS */
 
-h1, 
-h2, 	
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
 	font-family: "Rubik", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #012930;
 }
-h1 { 
+h1 {
 	margin-bottom: .75em;
 	font-size: 24px;
 	line-height: 1.13;
 	letter-spacing: -0.6px;
 }
-h2 { 
+h2 {
 	margin-bottom: .75em;
 	font-size: 24px;
 	line-height: 1.13;
 	padding-top: 0;
 	letter-spacing: -0.6px;
 }
-h3 { 
+h3 {
 	margin-bottom: 1em;
 	font-size: 1.2em;
 	line-height: 1.3;
 }
-h4 { 
+h4 {
 	margin-bottom: 1.25em;
 	font-size: 1.1em;
 	line-height: 1.25;
 }
-h5 { 
+h5 {
 	margin-bottom: 1.5em;
 	font-size: 1em;
 }
-h6 { 
+h6 {
 	font-size: 1em;
 }
 
@@ -109,50 +109,50 @@ h6 {
 
 /* 3.TYPOGRAPHY */
 
-p, 
-ol, 
-ul, 
-dl, 
-address { 
-	margin-bottom: 1.5em; 
+p,
+ol,
+ul,
+dl,
+address {
+	margin-bottom: 1.5em;
 	font-size: 14px;
 	line-height: 1.5;
 	letter-spacing: -0.3px;
 }
-ul, 
-ol { 
-	margin: 0 0 1.5em -24px; 
+ul,
+ol {
+	margin: 0 0 1.5em -24px;
 	padding-left: 24px;
 }
-ul { 
+ul {
 	list-style-type: disc;
 	margin-left: 0.2em;
 }
-ol { 
+ol {
 	list-style-type: decimal;
 	margin-left: 0.2em;
 }
-li ul, 
-li ol { 
+li ul,
+li ol {
 	margin: 0;
 	font-size: 1em;
 }
-blockquote  { 
-	margin: 0 0 1.5em -24px; 
-	padding-left: 24px; 
+blockquote  {
+	margin: 0 0 1.5em -24px;
+	padding-left: 24px;
 	border-left: 1px solid rgb(200,200,200);
 	font-style: italic;
 }
-sup, 
-sub { 
+sup,
+sub {
 	position: relative;
-	font-size: 75%; 
+	font-size: 75%;
 	line-height: 0;
 }
-sup { 
+sup {
 	top: -.5em;
 }
-sub { 
+sub {
 	bottom: -.25em;
 }
 input,
@@ -181,13 +181,13 @@ a:link {
 a:visited {
 	color: #4f7a81;
 }
-a:hover { 
+a:hover {
 	outline: none;
-	color: #4f7a81; 
+	color: #4f7a81;
 	text-decoration: none;
 }
-a:active, 
-a:focus { 
+a:active,
+a:focus {
 	outline: none;
 	color: #4f7a81;
 }
@@ -198,16 +198,16 @@ a:focus {
 
 /* 6.TABLES */
 
-table { 
+table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	margin-bottom: 1.4em; 
+	margin-bottom: 1.4em;
 	width: 100%;
 }
-th { 
+th {
 	font-weight: bold;
 }
-th, td, caption { 
+th, td, caption {
 	padding: .25em 10px .25em 5px;
 }
 
@@ -280,7 +280,7 @@ textarea {
 	display: inline-block;
 	white-space: nowrap;
 	letter-spacing: 1px;
-	
+
 }
 input.button2 {
 	background: #ff7676;
@@ -464,7 +464,7 @@ nav a:active {
 	color: #fff;
 	font-size: 24px;
 	text-align: center;
-	padding: 0 5%; 
+	padding: 0 5%;
 }
 #joinDogs {
 	width: 95%;
@@ -1534,7 +1534,7 @@ footer {
 	background: #f7f7f7;
 	border: 1px solid #f1f1f1;
 	width: 100%;
-	padding: 5px;	
+	padding: 5px;
 }
 #stepFormWrapper .radioSlider {
 	position: relative;
@@ -2078,7 +2078,7 @@ fieldset#step2cost {
 #step4Account #stepButton,
 #step4Address #stepButton,
 #step4Payment #stepButton {
-	margin: 0 -5.5%;	
+	margin: 0 -5.5%;
 }
 #step4Review #stepButton .button,
 #step4Account #stepButton .button,
@@ -2132,7 +2132,7 @@ li.checkBox {
 }
 #step4Payment #creditCard {
 	margin-left: 0;
-} 
+}
 #creditCard {
 	max-width: 572px;
 	border-radius: 15px;
@@ -2172,7 +2172,7 @@ li.checkBox {
 	color: #d3d3d3;
 	position: absolute;
 	top: 50%;
-    left: 0px; 
+    left: 0px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transition: all 0.15s ease-out 0s;
@@ -2519,37 +2519,42 @@ li#dashboardFooterCancel a:visited {
 }
 
 
+/* ==== PRIVACY / TERMS ===== */
+
+#info-body {
+	padding: 20px;
+}
 
 
 
 /* 15.VENDOR-SPECIFIC */
 
-::-webkit-selection { 
-background: rgb(23,119,175); 
-color: rgb(250,250,250); 
+::-webkit-selection {
+background: rgb(23,119,175);
+color: rgb(250,250,250);
 text-shadow: none; }
 
-::-moz-selection { 
-background: rgb(23,119,175); 
-color: rgb(250,250,250); 
+::-moz-selection {
+background: rgb(23,119,175);
+color: rgb(250,250,250);
 text-shadow: none; }
 
-::selection { 
-background: rgb(23,119,175); 
-color: rgb(250,250,250); 
+::selection {
+background: rgb(23,119,175);
+color: rgb(250,250,250);
 text-shadow: none; }
 
 
 div,
 input,
-textarea  { 
+textarea  {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 -o-box-sizing: border-box;
 box-sizing: border-box; }
 
 
-/* Sources: 
+/* Sources:
 http://meyerweb.com/eric/tools/css/reset
 http://people.opera.com/patrickl/experiments/keyboard/test
 http://gist.github.com/413930
