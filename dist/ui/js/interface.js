@@ -6,8 +6,10 @@ $(document).ready(function () {
 			autoplaySpeed: 3000,
 			dots: true,
 			infinite: true,
+			slide: '.slide',
 			slidesToShow: 4,
 			speed: 500,
+			swipeToSlide: true,
 			responsive: [
 				{
 					breakpoint: 1024,
@@ -27,6 +29,10 @@ $(document).ready(function () {
 		};
 
 		$('#ingredients .slider').slick(settings);
+
+		$('.custom-paging').on('click', function () {
+			$('#ingredients .slider').slick($(this).data('paging'));
+		});
 	}
 
 	// Nav and header START

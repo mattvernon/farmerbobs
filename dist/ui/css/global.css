@@ -970,6 +970,8 @@ ul#benefitList {
 
 /***** Ingredients Slider *****/
 section#ingredients {
+	position: relative;
+
 	overflow: hidden;
 	margin-bottom: 60px;
 
@@ -1018,6 +1020,9 @@ section#ingredients .slider .slick-next {
 	bottom: 60%;
 
 	background-image: url('../images/slider-arrow_right.png');
+}
+section#ingredients .custom-paging {
+	display: none;
 }
 section#ingredients .slick-list {
 	margin: 0 -20px;

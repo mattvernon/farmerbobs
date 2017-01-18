@@ -586,6 +586,7 @@ ul#benefitList {
 
 /***** Ingredients Slider *****/
 section#ingredients .slider {
+	position: relative;
 	width: 80%;
 }
 section#ingredients .slick-list {
@@ -603,6 +604,27 @@ section#ingredients .slider .slick-prev {
 section#ingredients .slider .slick-next {
 	right: -50px;
 	bottom: 70px;
+}
+section#ingredients .custom-paging {
+	position: absolute;
+	top: 0;
+	z-index: 98;
+
+	display: block;
+	width: 50%;
+	height: 260px;
+
+	background: red;
+
+	cursor: pointer;
+}
+section#ingredients .custom-paging[data-paging='slickPrev'] {
+	left: -20px;
+	transform: translateX(-100%);
+}
+section#ingredients .custom-paging[data-paging='slickNext'] {
+	right: -20px;
+	transform: translateX(100%);
 }
 
 /***** How it Works *****/
