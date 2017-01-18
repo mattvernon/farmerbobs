@@ -753,6 +753,10 @@ nav a:active {
 	height: auto;
 	display: block;
 }
+#whyFarmerBobs #wfbSet1 {
+	position: relative;
+	z-index: 1;
+}
 #whyFarmerBobs #wfbSet1 img {
 	margin-bottom: 34px;
 	position: absolute;
@@ -761,6 +765,10 @@ nav a:active {
 }
 #whyFarmerBobs #wfbSet1 h2 {
 	padding-top: 364px;
+}
+#whyFarmerBobs #wfbSet2 {
+	position: relative;
+	z-index: 2;
 }
 #whyFarmerBobs #wfbSet2 img {
 	margin-bottom: 14px;
