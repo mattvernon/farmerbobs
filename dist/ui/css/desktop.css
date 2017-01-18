@@ -1341,7 +1341,7 @@ li#dashboardFooterShipping {
 
 @media screen and (min-width: 1110px) {
 	#compImg {
-		background-size: 520px auto;
+		background-size: 130% auto;
 	}
 }
 @media screen and (min-width: 1180px) {

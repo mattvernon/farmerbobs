@@ -94,12 +94,7 @@ $(document).ready(function () {
 			$('#getStarted').height(imgH + "px");
 			$('#getStarted H1').css('padding-top', imgH - 370);
 		}
-		
-		// Home Comparison image height
-		if ($(window).width() > 767) {
-			imgW = $('#compImg').width();
-			$('#compImg').height(imgW * 1.05);
-		}
+	
 		
 		// Home Comparison text alignment
 		// if ($(window).width() > 767) {
