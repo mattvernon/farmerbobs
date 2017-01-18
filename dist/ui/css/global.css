@@ -50,6 +50,9 @@ body {
 body.greyBackground {
 	background: #f7f7f7;
 }
+body.greenBackground {
+	background: #CDEFCE;
+}
 body#home {
 	background-color: #f1f1ee;
 }

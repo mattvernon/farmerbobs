@@ -614,8 +614,6 @@ section#ingredients .custom-paging {
 	width: 50%;
 	height: 260px;
 
-	background: red;
-
 	cursor: pointer;
 }
 section#ingredients .custom-paging[data-paging='slickPrev'] {
