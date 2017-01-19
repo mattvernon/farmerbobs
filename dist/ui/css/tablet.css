@@ -115,7 +115,7 @@ h2 {
 #compImg::after {
 	content: 'VS';
 
-	top: 47%;
+	top: 45%;
 	left: 49.5%;
 
 	font-size: 50px;
@@ -249,7 +249,7 @@ h2 {
 	font-size: 30px;
 	width: 80%;
 	max-width: 690px;
-	margin: 0 auto 20px auto; 
+	margin: 0 auto 20px auto;
 }
 
 /***** Find Out Why *****/
@@ -773,7 +773,7 @@ p#notAvailableMessage {
 	padding-bottom: 40px;
 	line-height: 1.4;
 }
-#stepFormWrapper input, 
+#stepFormWrapper input,
 #stepFormWrapper select {
 	font-size: 46px;
 }
@@ -1035,7 +1035,7 @@ fieldset#step2recipes {
 
 
 @media screen and (min-width: 890px) {
-		
+
 }
 @media screen and (min-width: 970px) {
     #getStarted h1 {
@@ -1043,4 +1043,3 @@ fieldset#step2recipes {
 	    max-width: 500px;
     }
 }
-	
